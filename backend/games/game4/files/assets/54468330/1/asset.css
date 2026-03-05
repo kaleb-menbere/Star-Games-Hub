@@ -1,0 +1,38 @@
+.fullscreenMask {
+    position: absolute;
+    bottom: 0%;
+    left: -200%;
+    width: 200%;
+    height: 100%;
+    color: black;
+    z-index: 100;
+    -webkit-transition: left 0.3s linear;
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.textContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    font-size: 5vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -o-user-select: none;
+    user-select: none;
+}
+.textContainer:hover {
+   cursor: default;
+}
+

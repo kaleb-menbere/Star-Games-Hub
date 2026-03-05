@@ -1,0 +1,383 @@
+{
+	"path":
+	{
+		"fill":
+		[
+			"base_one_fill_00",
+			"base_one_fill_01",
+			"base_one_fill_02",
+			"base_one_fill_03",
+			"base_one_fill_04",
+			"base_one_trash_fill_00",
+			"base_one_snow_fill_00",
+			"base_one_tunnel_fill_00",
+			"base_one_tunnel_fill_01",
+			"base_one_tunnel_fill_02",
+			"base_one_tunnel_fill_03",
+			"base_one_tunnel_fill_04"
+		],
+		"ground":
+		[
+			"base_one_ground_00",
+			"base_one_ground_01",
+			"base_one_ground_02",
+			"base_one_ground_03",
+			"base_one_ground_04",
+			"base_one_ground_05",
+			"base_one_trash_ground_00",
+			"base_one_snow_ground_00",
+			"base_one_ground_bridge_00",
+			"base_one_laser_bridge_00"
+		],
+		"ground_edge":
+		[
+			"base_one_ground_edge_00",
+			"base_one_ground_edge_01",
+			"base_one_ground_edge_02",
+			"base_one_ground_edge_03",
+			"base_one_ground_edge_04",
+			"base_one_ground_edge_05",
+			"base_one_snow_ground_edge_00"
+		],
+		"wall":
+		[
+			"base_one_wall_00",
+			"base_one_wall_01",
+			"base_one_wall_02",
+			"base_one_wall_03",
+			"base_one_wall_04",
+			"base_one_tunnel_wall_00",
+			"base_one_tunnel_wall_01",
+			"base_one_tunnel_wall_02",
+			"base_one_tunnel_wall_03",
+			"base_one_tunnel_wall_04",
+			"base_one_tunnel_wall_05"
+		]
+	},
+	"objects":
+	[
+		{
+			"id"      : "camera_zoom",
+			"texture" : "camera_zoom",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"zoom\":1,\"time\":0.0}",
+			"scale"   : 5
+		},
+		{
+			"id"      : "level_end",
+			"texture" : "level_end",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		{
+			"id"      : "level_gameover",
+			"texture" : "level_gameover",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		{
+			"id"      : "level_bullettime",
+			"texture" : "level_bullettime",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"value\":0,\"time\":0,\"inTime\":0,\"outTime\":0}",
+			"scale"   : 5
+		},
+		{
+			"id"      : "tutorial",
+			"texture" : "tutorial",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"text\":\"HELP_{VALUE}\", \"time\":\"5\"}"
+		},
+		{
+			"id"      : "roll_lock",
+			"texture" : "roll_lock",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : ""
+		},
+		{
+			"id"      : "roll_unlock",
+			"texture" : "roll_unlock",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : ""
+		},
+		{
+			"id"      : "coin",
+			"texture" : "ui_icon_ability_token",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "hint_up",
+			"texture" : "hint_editor_up",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"character\":\"captain_america|iron_man|thor|black_widow|black_panther|hulk|hawkeye\"}"
+		},
+		{
+			"id"      : "hint_down",
+			"texture" : "hint_editor_down",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"character\":\"captain_america|iron_man|thor|black_widow|black_panther|hulk|hawkeye\"}"
+		},
+		{
+			"id"      : "collectible",
+			"texture" : "ui_progress_icon",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "enemy_guard",
+			"texture" : "enemy_guard",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"      : "enemy_biohaz",
+			"texture" : "enemy_biohaz",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"      : "enemy_scientist",
+			"texture" : "enemy_scientist",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"      : "enemy_scientist_back",
+			"texture" : "enemy_scientist_back",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"      : "theme_01_divider",
+			"texture" : "theme_01_divider",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_ac_unit_00",
+			"texture" : "base_one_ac_unit_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_banner_flag_00",
+			"texture" : "base_one_banner_flag_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_bg_barrel_00",
+			"texture" : "base_one_bg_barrel_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "scale"   : [0.7, 1.0],
+            "depth"   : -3
+		},
+		{
+			"id"	  : "base_one_fg_barrel_00",
+			"texture" : "base_one_fg_barrel_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "scale"   : [0.9, 1.0]
+		},
+		{
+			"id"	  : "base_one_crate_00",
+			"texture" : "base_one_crate_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "scale"   : [0.7, 1.0]
+		},
+		{
+			"id"	  : "base_one_crate_01",
+			"texture" : "base_one_crate_01",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "scale"   : [0.7, 1.0]
+		},
+		{
+			"id"	  : "base_one_crate_02",
+			"texture" : "base_one_crate_02",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "scale"   : [0.7, 1.0],
+            "depth"   : -1
+		},
+		{
+			"id"	  : "base_one_bg_column_00",
+			"texture" : "base_one_bg_column_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -5
+		},
+		{
+			"id"	  : "base_one_fg_column_00",
+			"texture" : "base_one_fg_column_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -5
+		},
+		{
+			"id"	  : "base_one_bg_doorway",
+			"texture" : "base_one_bg_doorway",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_door_00",
+			"texture" : "base_one_door_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_lab_door_00",
+			"texture" : "base_one_lab_door_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_rock_door_00",
+			"texture" : "base_one_rock_door_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_fence_chain_00",
+			"texture" : "base_one_fence_chain_00",
+			"anchor"  : {"x":0.5, "y":1},
+            "depth"   : -6
+		},
+		{
+			"id"	  : "cage",
+			"texture" : "base_one_cage_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_laser_bridge_l_00",
+			"texture" : "base_one_laser_bridge_l_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_laser_bridge_r_00",
+			"texture" : "base_one_laser_bridge_r_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "laser_bridge_switch",
+			"texture" : "base_one_laser_bridge_switch_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_ceiling_lights_00",
+			"texture" : "base_one_ceiling_lights_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_computer_00",
+			"texture" : "base_one_computer_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_computer_01",
+			"texture" : "base_one_computer_01",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_computer_02",
+			"texture" : "base_one_computer_02",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_console_unit_00",
+			"texture" : "base_one_console_unit_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_wall_cpu_00",
+			"texture" : "base_one_wall_cpu_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_fuse_box_00",
+			"texture" : "base_one_fuse_box_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_container_00",
+			"texture" : "base_one_container_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_jeep_00",
+			"texture" : "base_one_jeep_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_security_cam_00",
+			"texture" : "base_one_security_cam_00",
+			"anchor"  : {"x":0.5, "y":0}
+		},
+		{
+			"id"	  : "base_one_small_pipes_00",
+			"texture" : "base_one_small_pipes_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_turret_00",
+			"texture" : "base_one_turret_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_alarm_light_00",
+			"texture" : "base_one_alarm_light_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_wall_light_00",
+			"texture" : "base_one_wall_light_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_rustpipe_00",
+			"texture" : "base_one_rustpipe_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_securitylight_00",
+			"texture" : "base_one_securitylight_00",
+			"anchor"  : {"x":0.5, "y":1}
+		},
+		{
+			"id"	  : "base_one_missile_00",
+			"texture" : "base_one_missile_00",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"	  : "base_one_logo_decal_00",
+			"texture" : "base_one_logo_decal_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -7
+		},
+		{
+			"id"	  : "base_one_logo_decal_01",
+			"texture" : "base_one_logo_decal_01",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -7
+		},
+		{
+			"id"	  : "base_one_vent_00",
+			"texture" : "base_one_vent_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -7
+		},
+		{
+			"id"	  : "base_one_window_00",
+			"texture" : "base_one_window_00",
+			"anchor"  : {"x":0.5, "y":0.5},
+            "depth"   : -5
+		},
+		{
+			"id"	  : "base_one_tree_bg_00",
+			"texture" : "base_one_tree_bg_00",
+			"anchor"  : {"x":0.5, "y":1},
+            "scale"   : [0.3, 0.9],
+            "depth"   : -5
+		},
+		{
+			"id"	  : "base_one_tree_fg_00",
+			"texture" : "base_one_tree_fg_00",
+			"anchor"  : {"x":0.5, "y":1},
+            "scale"   : [0.7, 1.0]
+		},
+		{
+			"id"      : "theme_02_divider",
+			"texture" : "theme_02_divider",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "theme_03_divider",
+			"texture" : "theme_03_divider",
+			"anchor"  : {"x":0.5, "y":0.5}
+		}
+	]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel's Incredible Hulk: Chitauri Takedown - HTML5 Game</title>
+    <script src="js/game_html_headScripts.js"></script>
+    <script>
+    WebFontConfig = {
+        //  The Google Fonts we want to load (specify as many as you like in the array)
+        google: {
+            families: ['Noto Sans']
+        }
+    };
+
+    // Cordova app never returns 200 status when completing ajax requests. This ensures that it does.
+    (function() {
+        // if we are loading files from file:///
+        var isCordova = /^file:\/{3}[^\/]/i.test(window.location.href);
+        if (isCordova) {
+            // inside a cordova app, the status property will be 0 becauase of the path `file:///`
+            XMLHttpRequest.prototype._status = 0;
+            Object.defineProperties(window.XMLHttpRequest.prototype, {
+                status: {
+                    get: function() {
+                        // once the request is done (readyState === 4), we assume the status is 200, NOT 0
+                        return this.readyState === 4 && !this._status ? 200 : this._status;
+                    },
+                    set: function(value) {
+                        this._status = value;
+                    }
+                }
+            });
+        }
+    })();
+    </script>
+    <script>
+    (function() {
+        var isFileProtocol = 'file:' === document.location.protocol;
+        if (isFileProtocol) {
+            window.runISL = function() {
+                if (window.gameStart && typeof window.gameStart === 'function') {
+                    window.gameStart();
+                }
+            }
+        } else {
+            var isl = document.createElement('script');
+            isl.type = 'text/javascript';
+            isl.src = 'js/isl.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(isl, node);
+        }
+    })();
+    </script>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+        // if ISL is available run it
+        if (window.runISL) {
+            window.runISL();
+        }
+    };
+    </script>
+    <style>
+    body {
+        margin: 0;
+        background: #000000;
+    }
+
+    canvas {
+        margin: auto;
+        color: #000;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    html {
+        overflow: hidden;
+    }
+
+    #game {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="gameTarget"></div>
+    <!-- <script src="/games/shared/payment-check.js"></script> -->
+</body>
+
+</html>

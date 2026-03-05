@@ -1,0 +1,13 @@
+{
+    "sounds": {
+        "channels": {
+            "mainSfx": {
+                "volume": 1,
+                "singleTrack": false,
+                "trackMap": { 
+                    "button_click": { "volume": 0.5, "looping": false, "priority": 0, "poolMax": 5 }
+                }
+            }
+        }
+    }
+}

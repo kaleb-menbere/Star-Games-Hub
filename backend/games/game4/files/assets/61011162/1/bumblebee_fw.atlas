@@ -1,0 +1,174 @@
+
+bumblebee_fw.png
+size: 205,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bumblebee/antena
+  rotate: false
+  xy: 171, 415
+  size: 31, 106
+  orig: 31, 106
+  offset: 0, 0
+  index: -1
+bumblebee/arm lower
+  rotate: true
+  xy: 99, 203
+  size: 38, 87
+  orig: 38, 87
+  offset: 0, 0
+  index: -1
+bumblebee/arm upper
+  rotate: false
+  xy: 177, 42
+  size: 16, 56
+  orig: 16, 56
+  offset: 0, 0
+  index: -1
+bumblebee/eye white
+  rotate: true
+  xy: 144, 100
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
+bumblebee/eyebrow
+  rotate: false
+  xy: 93, 2
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+bumblebee/eyes
+  rotate: false
+  xy: 2, 2
+  size: 89, 33
+  orig: 89, 33
+  offset: 0, 0
+  index: -1
+bumblebee/eyes blink
+  rotate: true
+  xy: 107, 84
+  size: 89, 35
+  orig: 89, 35
+  offset: 0, 0
+  index: -1
+bumblebee/foot
+  rotate: true
+  xy: 144, 41
+  size: 57, 31
+  orig: 57, 31
+  offset: 0, 0
+  index: -1
+bumblebee/hand fist
+  rotate: false
+  xy: 144, 19
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+bumblebee/hand open
+  rotate: true
+  xy: 184, 140
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+bumblebee/head
+  rotate: false
+  xy: 2, 168
+  size: 95, 97
+  orig: 95, 97
+  offset: 0, 0
+  index: -1
+bumblebee/helmet
+  rotate: false
+  xy: 2, 267
+  size: 116, 106
+  orig: 116, 106
+  offset: 0, 0
+  index: -1
+bumblebee/hip
+  rotate: true
+  xy: 107, 15
+  size: 67, 35
+  orig: 67, 35
+  offset: 0, 0
+  index: -1
+bumblebee/leg lower
+  rotate: false
+  xy: 64, 37
+  size: 41, 129
+  orig: 41, 129
+  offset: 0, 0
+  index: -1
+bumblebee/leg upper
+  rotate: true
+  xy: 99, 175
+  size: 26, 91
+  orig: 26, 91
+  offset: 0, 0
+  index: -1
+bumblebee/mouth down
+  rotate: false
+  xy: 2, 37
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+bumblebee/mouth down teeth
+  rotate: true
+  xy: 99, 244
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+bumblebee/mouth oo
+  rotate: false
+  xy: 184, 122
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+bumblebee/mouth up
+  rotate: true
+  xy: 188, 214
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+bumblebee/mouth up open
+  rotate: false
+  xy: 171, 389
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+bumblebee/pupil
+  rotate: false
+  xy: 169, 19
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+bumblebee/torso
+  rotate: false
+  xy: 2, 51
+  size: 60, 115
+  orig: 60, 115
+  offset: 0, 0
+  index: -1
+bumblebee/wing lower
+  rotate: true
+  xy: 120, 243
+  size: 130, 83
+  orig: 130, 83
+  offset: 0, 0
+  index: -1
+bumblebee/wing upper
+  rotate: false
+  xy: 2, 375
+  size: 167, 146
+  orig: 167, 146
+  offset: 0, 0
+  index: -1

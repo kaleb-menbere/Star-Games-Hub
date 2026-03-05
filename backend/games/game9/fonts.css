@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Frank';
+    src: url('frankfurtermediumstd.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Andy';
+    src: url('andybold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'LeBeau';
+    src: url('lebeau.otf') format('opentype');
+}

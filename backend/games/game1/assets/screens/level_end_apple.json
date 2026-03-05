@@ -1,0 +1,348 @@
+{"frames": [
+
+{
+	"filename": "apple_dance0001.png",
+	"frame": {"x":2,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0002.png",
+	"frame": {"x":185,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0003.png",
+	"frame": {"x":368,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0004.png",
+	"frame": {"x":551,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0005.png",
+	"frame": {"x":734,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0006.png",
+	"frame": {"x":917,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0007.png",
+	"frame": {"x":1100,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0008.png",
+	"frame": {"x":1283,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0009.png",
+	"frame": {"x":1466,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0010.png",
+	"frame": {"x":1649,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0011.png",
+	"frame": {"x":1832,"y":2,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0012.png",
+	"frame": {"x":2,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0013.png",
+	"frame": {"x":185,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0014.png",
+	"frame": {"x":368,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0015.png",
+	"frame": {"x":551,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0016.png",
+	"frame": {"x":734,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0017.png",
+	"frame": {"x":917,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0018.png",
+	"frame": {"x":1100,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0019.png",
+	"frame": {"x":1283,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0020.png",
+	"frame": {"x":1466,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0021.png",
+	"frame": {"x":1649,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0022.png",
+	"frame": {"x":1832,"y":297,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0023.png",
+	"frame": {"x":2,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0024.png",
+	"frame": {"x":185,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0025.png",
+	"frame": {"x":368,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0026.png",
+	"frame": {"x":551,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0027.png",
+	"frame": {"x":734,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0028.png",
+	"frame": {"x":917,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0029.png",
+	"frame": {"x":1100,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0030.png",
+	"frame": {"x":1283,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0031.png",
+	"frame": {"x":1466,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0032.png",
+	"frame": {"x":1649,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0033.png",
+	"frame": {"x":1832,"y":592,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0034.png",
+	"frame": {"x":2,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0035.png",
+	"frame": {"x":185,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0036.png",
+	"frame": {"x":368,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0037.png",
+	"frame": {"x":551,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0038.png",
+	"frame": {"x":734,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0039.png",
+	"frame": {"x":917,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0040.png",
+	"frame": {"x":1100,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0041.png",
+	"frame": {"x":1283,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+},
+{
+	"filename": "apple_dance0042.png",
+	"frame": {"x":1466,"y":887,"w":181,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":293},
+	"sourceSize": {"w":181,"h":293}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_end_apple.png",
+	"format": "RGBA8888",
+	"size": {"w":2015,"h":1182},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7aa836a84370ad07ddbb7fc4dc7c3930:ffac8c691b63b5f57e300f5a9b49d855:70901fd0ab9e470a2d540a3871a54ca0$"
+}
+}

@@ -1,0 +1,468 @@
+
+avengers_enemy.png
+size: 1237,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy_biohaz/arm_l
+  rotate: true
+  xy: 863, 146
+  size: 47, 92
+  orig: 47, 92
+  offset: 0, 0
+  index: -1
+enemy_biohaz/arm_r
+  rotate: true
+  xy: 903, 97
+  size: 47, 92
+  orig: 47, 92
+  offset: 0, 0
+  index: -1
+enemy_biohaz/belt
+  rotate: false
+  xy: 1033, 2
+  size: 62, 32
+  orig: 62, 32
+  offset: 0, 0
+  index: -1
+enemy_biohaz/elbow_l
+  rotate: false
+  xy: 983, 19
+  size: 48, 76
+  orig: 48, 76
+  offset: 0, 0
+  index: -1
+enemy_biohaz/elbow_r
+  rotate: false
+  xy: 983, 19
+  size: 48, 76
+  orig: 48, 76
+  offset: 0, 0
+  index: -1
+enemy_biohaz/foot_l
+  rotate: false
+  xy: 1018, 168
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+enemy_biohaz/foot_r
+  rotate: false
+  xy: 1018, 168
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+enemy_biohaz/hand_r
+  rotate: true
+  xy: 1197, 169
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+enemy_biohaz/head_1
+  rotate: true
+  xy: 812, 76
+  size: 65, 89
+  orig: 65, 89
+  offset: 0, 0
+  index: -1
+enemy_biohaz/shin_l
+  rotate: true
+  xy: 383, 2
+  size: 58, 139
+  orig: 58, 139
+  offset: 0, 0
+  index: -1
+enemy_biohaz/shin_r
+  rotate: true
+  xy: 383, 2
+  size: 58, 139
+  orig: 58, 139
+  offset: 0, 0
+  index: -1
+enemy_biohaz/thigh_l
+  rotate: true
+  xy: 731, 5
+  size: 64, 119
+  orig: 66, 119
+  offset: 2, 0
+  index: -1
+enemy_biohaz/thigh_r
+  rotate: true
+  xy: 731, 5
+  size: 64, 119
+  orig: 66, 119
+  offset: 2, 0
+  index: -1
+enemy_biohaz/torso
+  rotate: false
+  xy: 383, 133
+  size: 83, 143
+  orig: 83, 143
+  offset: 0, 0
+  index: -1
+enemy_guard/arm_l
+  rotate: true
+  xy: 695, 137
+  size: 41, 73
+  orig: 41, 73
+  offset: 0, 0
+  index: -1
+enemy_guard/arm_r
+  rotate: true
+  xy: 695, 137
+  size: 41, 73
+  orig: 41, 73
+  offset: 0, 0
+  index: -1
+enemy_guard/belt
+  rotate: false
+  xy: 1186, 135
+  size: 48, 32
+  orig: 48, 32
+  offset: 0, 0
+  index: -1
+enemy_guard/elbow_l
+  rotate: true
+  xy: 1138, 69
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+enemy_guard/elbow_r
+  rotate: true
+  xy: 1138, 69
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+enemy_guard/foot_l
+  rotate: false
+  xy: 1141, 169
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+enemy_guard/foot_r
+  rotate: false
+  xy: 1141, 169
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+enemy_guard/hand_l2
+  rotate: true
+  xy: 997, 97
+  size: 54, 65
+  orig: 54, 65
+  offset: 0, 0
+  index: -1
+enemy_guard/hand_r1
+  rotate: true
+  xy: 1153, 41
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+enemy_guard/head1
+  rotate: true
+  xy: 1097, 4
+  size: 48, 54
+  orig: 48, 62
+  offset: 0, 8
+  index: -1
+enemy_guard/shin_l
+  rotate: true
+  xy: 591, 136
+  size: 42, 102
+  orig: 42, 102
+  offset: 0, 0
+  index: -1
+enemy_guard/shin_r
+  rotate: true
+  xy: 591, 136
+  size: 42, 102
+  orig: 42, 102
+  offset: 0, 0
+  index: -1
+enemy_guard/thigh_l
+  rotate: true
+  xy: 628, 3
+  size: 60, 101
+  orig: 61, 101
+  offset: 1, 0
+  index: -1
+enemy_guard/thigh_r
+  rotate: true
+  xy: 628, 3
+  size: 60, 101
+  orig: 61, 101
+  offset: 1, 0
+  index: -1
+enemy_guard/torso
+  rotate: true
+  xy: 548, 65
+  size: 69, 132
+  orig: 69, 132
+  offset: 0, 0
+  index: -1
+enemy_scientist/arm_l
+  rotate: false
+  xy: 1197, 204
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+enemy_scientist/arm_r
+  rotate: false
+  xy: 1197, 204
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+enemy_scientist/coat
+  rotate: true
+  xy: 383, 62
+  size: 69, 163
+  orig: 69, 163
+  offset: 0, 0
+  index: -1
+enemy_scientist/elbow_l
+  rotate: true
+  xy: 1116, 130
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+enemy_scientist/elbow_r
+  rotate: true
+  xy: 1116, 130
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+enemy_scientist/foot_l
+  rotate: true
+  xy: 1205, 25
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+enemy_scientist/foot_r
+  rotate: true
+  xy: 1205, 25
+  size: 56, 24
+  orig: 56, 24
+  offset: 0, 0
+  index: -1
+enemy_scientist/hand_l
+  rotate: false
+  xy: 1205, 83
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+enemy_scientist/hand_r
+  rotate: false
+  xy: 1205, 83
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_1
+  rotate: true
+  xy: 920, 13
+  size: 62, 61
+  orig: 62, 61
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_2
+  rotate: true
+  xy: 957, 153
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_3
+  rotate: true
+  xy: 930, 215
+  size: 61, 59
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_4
+  rotate: false
+  xy: 1033, 36
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_5
+  rotate: false
+  xy: 1046, 217
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_6
+  rotate: false
+  xy: 1064, 107
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_7
+  rotate: false
+  xy: 991, 217
+  size: 53, 59
+  orig: 53, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_8
+  rotate: false
+  xy: 1099, 217
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist/head_9
+  rotate: true
+  xy: 1084, 169
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+enemy_scientist/shin_l
+  rotate: true
+  xy: 468, 136
+  size: 38, 121
+  orig: 38, 121
+  offset: 0, 0
+  index: -1
+enemy_scientist/shin_r
+  rotate: true
+  xy: 468, 136
+  size: 38, 121
+  orig: 38, 121
+  offset: 0, 0
+  index: -1
+enemy_scientist/thigh_l
+  rotate: true
+  xy: 524, 13
+  size: 47, 102
+  orig: 47, 102
+  offset: 0, 0
+  index: -1
+enemy_scientist/thigh_r
+  rotate: true
+  xy: 278, 3
+  size: 47, 103
+  orig: 47, 103
+  offset: 0, 0
+  index: -1
+enemy_scientist/torso
+  rotate: true
+  xy: 682, 71
+  size: 63, 128
+  orig: 63, 128
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/belt
+  rotate: false
+  xy: 903, 77
+  size: 56, 18
+  orig: 56, 18
+  offset: 0, 0
+  index: -1
+target_corner/enemy_target_corner
+  rotate: false
+  xy: 1085, 54
+  size: 51, 51
+  orig: 53, 53
+  offset: 1, 1
+  index: -1
+transparent
+  rotate: false
+  xy: 524, 10
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+vfx/die_circle
+  rotate: false
+  xy: 2, 2
+  size: 274, 274
+  orig: 274, 274
+  offset: 0, 0
+  index: -1
+vfx/vfx_blast_circle
+  rotate: true
+  xy: 766, 195
+  size: 81, 80
+  orig: 97, 98
+  offset: 8, 10
+  index: -1
+vfx/vfx_blast_ray
+  rotate: true
+  xy: 278, 52
+  size: 224, 103
+  orig: 224, 103
+  offset: 0, 0
+  index: -1
+vfx/vfx_blue_blast
+  rotate: false
+  xy: 468, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+vfx/vfx_enemy_blast_circle
+  rotate: true
+  xy: 848, 195
+  size: 81, 80
+  orig: 97, 98
+  offset: 8, 10
+  index: -1
+vfx/vfx_enemy_lightning
+  rotate: false
+  xy: 570, 180
+  size: 96, 96
+  orig: 103, 100
+  offset: 2, 1
+  index: -1
+vfx/vfx_hit
+  rotate: false
+  xy: 852, 8
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+vfx/vfx_kick
+  rotate: true
+  xy: 770, 143
+  size: 50, 91
+  orig: 50, 115
+  offset: 0, 18
+  index: -1
+vfx/vfx_lightning
+  rotate: false
+  xy: 668, 180
+  size: 96, 96
+  orig: 103, 100
+  offset: 2, 1
+  index: -1
+vfx/vfx_punch
+  rotate: false
+  xy: 1116, 107
+  size: 83, 21
+  orig: 95, 21
+  offset: 12, 0
+  index: -1
+vfx/vfx_sparks
+  rotate: true
+  xy: 1149, 237
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1

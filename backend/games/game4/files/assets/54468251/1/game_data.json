@@ -1,0 +1,1515 @@
+{
+    "templatesReference": ["TunnelObstacle_Half", "TunnelObstacle_Bar", "TunnelObstacle_Blobs", 
+                           "TunnelObstacle_3_Holes", "TunnelObstacle_4_Holes", "TunnelObstacle_Keyhole", "TunnelObstacle_Square", "TunnelObstacle_Triangle", "TunnelObstacle_Edge_Circle", "TunnelObstacle_Laser_Donut",
+                          "TunnelObstacle_Laser_Cross", "TunnelObstacle_Laser_Triangles", "TunnelObstacle_Donut", "TunnelObstacle_Laser_Bar", 
+                          "TunnelObstacle_Gate01"],
+    "levels":[
+        {
+            "id": "test",
+            "campaign":{
+                "tunnelTextures": ["zatana_pipe_base", "zatana_pipe_lights", "zatana_pipe_lines_1", "zatana_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_zatana",
+                "obstaclesLaserMaterialTexture": "laser_pink",
+                "obstacles":[
+                    {
+                        "templateID": null,
+                        "angle": 180
+                    },
+                    {
+                        "templateID": null,
+                        "angle": 180,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    }
+                ]
+            },
+            "endless":{
+                "tunnelTextures": ["ww_pipe_base"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_wonderwoman",
+                "obstaclesLaserMaterialTexture": "laser_pink",
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    }
+
+                ]   
+            }            
+        },
+        
+        {
+            "id": "wonderwoman",
+            "campaign":{
+                "tunnelTextures": ["ww_pipe_base", "ww_pipe_lights", "ww_pipe_lines_1", "ww_pipe_lines_2"],
+                "nextLevelID": "greenlantern",
+                "startSpeed": 9,
+                "obstaclesPrimaryMaterialTexture": "obstacles_wonderwoman",
+                "obstaclesLaserMaterialTexture": "laser_yellow",
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 270
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0
+                    }
+                ]
+            },
+            "endless":{
+                "tunnelTextures": ["ww_pipe_base", "ww_pipe_lights", "ww_pipe_lines_1", "ww_pipe_lines_2"],
+                "startSpeed": 9,
+                "endSpeed": 14,
+                "obstaclesPrimaryMaterialTexture": "obstacles_wonderwoman",
+                "obstaclesLaserMaterialTexture": "laser_yellow",
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        }
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    }
+                ]   
+            }
+        },
+        
+        {
+            "id": "greenlantern",
+            "campaign":{
+                "tunnelTextures": ["green_pipe_base", "green_pipe_lights", "green_pipe_lines_1", "green_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_greenlantern",
+                "obstaclesLaserMaterialTexture": "laser_green",
+                "nextLevelID": "batgirl",
+                
+                "designOptions":["TunnelObstacle_Half","TunnelObstacle_Bar","TunnelObstacle_4_Holes","TunnelObstacle_Keyhole","TunnelObstacle_Edge_Circle","TunnelObstacle_Laser_Cross","TunnelObstacle_Laser_Triangles",
+                                "TunnelObstacle_Laser_Bar","TunnelObstacle_Gate01","TunnelObstacle_Square"],
+                "startSpeed": 9,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 200,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 45
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": -45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 180,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 45
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 90,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": -90,
+                        "spinSpeed": 6
+                    }
+                ]
+                
+            },
+            "endless":{
+                "tunnelTextures": ["green_pipe_base", "green_pipe_lights", "green_pipe_lines_1", "green_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_greenlantern",
+                "obstaclesLaserMaterialTexture": "laser_green",
+                
+                "startSpeed": 9,
+                "endSpeed": 14,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        }
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    }
+                ]
+                
+            }
+        },
+
+        
+        
+        {
+            "id": "batgirl",
+            "campaign":{
+                "tunnelTextures": ["batgirl_pipe_base", "batgirl_pipe_lights", "batgirl_pipe_lines_1", "batgirl_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_batgirl",
+                "obstaclesLaserMaterialTexture": "laser_yellow",
+                "nextLevelID": "supergirl",
+                
+                "designOptions":["TunnelObstacle_Half","TunnelObstacle_Bar","TunnelObstacle_4_Holes","TunnelObstacle_Keyhole","TunnelObstacle_Edge_Circle","TunnelObstacle_Laser_Cross","TunnelObstacle_Laser_Triangles",
+                                "TunnelObstacle_Laser_Bar","TunnelObstacle_Gate01","TunnelObstacle_Square","TunnelObstacle_Donut","TunnelObstacle_Triangle"],
+                "startSpeed": 10,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": -90,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": -90,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 90,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 45,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 30,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 65,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 130,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 45,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": 30,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": -90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": -45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 180,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": 6
+                    }
+                ]
+                
+            },
+            "endless":{
+                "tunnelTextures": ["batgirl_pipe_base", "batgirl_pipe_lights", "batgirl_pipe_lines_1", "batgirl_pipe_lines_2"],
+                "designOptions":["TunnelObstacle_Half","TunnelObstacle_Bar","TunnelObstacle_4_Holes","TunnelObstacle_Keyhole","TunnelObstacle_Edge_Circle","TunnelObstacle_Laser_Cross","TunnelObstacle_Laser_Triangles",
+                                "TunnelObstacle_Laser_Bar","TunnelObstacle_Gate01","TunnelObstacle_Square","TunnelObstacle_Donut"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_batgirl",
+                "obstaclesLaserMaterialTexture": "laser_yellow",
+                
+                "startSpeed": 10,
+                "endSpeed": 15,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        }
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    }
+                ] 
+            }
+        },
+        
+        {
+            "id": "supergirl",
+            "campaign":{
+                "tunnelTextures": ["supergirl_pipe_base", "supergirl_pipe_lights", "supergirl_pipe_lines_1", "supergirl_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_supergirl",
+                "obstaclesLaserMaterialTexture": "laser_blue",
+                "nextLevelID": "zatana",
+                
+                "designOptions":["TunnelObstacle_Half","TunnelObstacle_Bar","TunnelObstacle_4_Holes","TunnelObstacle_Keyhole","TunnelObstacle_Edge_Circle","TunnelObstacle_Laser_Cross","TunnelObstacle_Laser_Triangles",
+                                "TunnelObstacle_Laser_Bar","TunnelObstacle_Gate01","TunnelObstacle_Square","TunnelObstacle_Donut","TunnelObstacle_Triangle","TunnelObstacle_3_Holes"],
+                "startSpeed": 11,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": -90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": -90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": -45
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 135,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": -45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 180
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": 90
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 90,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    }
+                ]
+                
+                
+            },
+            "endless":{
+                "tunnelTextures": ["supergirl_pipe_base", "supergirl_pipe_lights", "supergirl_pipe_lines_1", "supergirl_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_supergirl",
+                "obstaclesLaserMaterialTexture": "laser_blue",
+                
+                "startSpeed": 11,
+                "endSpeed": 16,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        }
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": true
+                    }
+                ]  
+                
+                
+            }
+        }, 
+        
+        {
+            "id": "zatana",
+            "campaign":{
+                "tunnelTextures": ["zatana_pipe_base", "zatana_pipe_lights", "zatana_pipe_lines_1", "zatana_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_zatana",
+                "obstaclesLaserMaterialTexture": "laser_pink",
+                
+                "designOptions":["TunnelObstacle_Half","TunnelObstacle_Bar","TunnelObstacle_4_Holes","TunnelObstacle_Keyhole","TunnelObstacle_Edge_Circle","TunnelObstacle_Laser_Cross","TunnelObstacle_Laser_Triangles",
+                                "TunnelObstacle_Laser_Bar","TunnelObstacle_Gate01","TunnelObstacle_Square","TunnelObstacle_Donut","TunnelObstacle_Triangle","TunnelObstacle_3_Holes","TunnelObstacle_Blobs","TunnelObstacle_Laser_Donut"],
+                "startSpeed": 12,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": 90,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 90,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": 90,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": 135
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 90,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 90,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 90,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 135,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": -45,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": -45,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": -45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 180,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": 90,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": 45,
+                        "spinSpeed": 3
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 135,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": 180,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": 180,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 45,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": -45,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": -45,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Donut",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": 0,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": 90,
+                        "spinSpeed": 0
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": 0,
+                        "spinSpeed": -6
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": 0,
+                        "spinSpeed": 6
+                    }
+                ]
+            },
+            "endless":{
+                "tunnelTextures": ["zatana_pipe_base", "zatana_pipe_lights", "zatana_pipe_lines_1", "zatana_pipe_lines_2"],
+                "obstaclesPrimaryMaterialTexture": "obstacles_zatana",
+                "obstaclesLaserMaterialTexture": "laser_pink",
+                
+                "startSpeed": 12,
+                "endSpeed": 17,
+                "obstacles":[
+                    {
+                        "templateID": "TunnelObstacle_Half",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Bar",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_4_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Keyhole",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Edge_Circle",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Cross",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Triangles",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "spinSpeed": {
+                            "options": [0, 6, -6]
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Bar",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "spinSpeed": {
+                            "options": [0, 5, -5]
+                        }
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Gate01",
+                        "angle": {
+                            "options": [0, 90, 180, 270]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Square",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Donut",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Triangle",
+                        "angle": {
+                            "options": [0, 45, 90, 135, 180, 225, 270, 315]
+                        },
+                        "allowConsecutive": false
+                    },
+                    {
+                        "templateID": "TunnelObstacle_3_Holes",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Blobs",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": true
+                    },
+                    {
+                        "templateID": "TunnelObstacle_Laser_Donut",
+                        "angle": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "allowConsecutive": false
+                    }
+                ] 
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,556 @@
+{"frames": [
+
+{
+	"filename": "apple_jump0001.png",
+	"frame": {"x":2,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0002.png",
+	"frame": {"x":163,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0003.png",
+	"frame": {"x":324,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0004.png",
+	"frame": {"x":485,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0005.png",
+	"frame": {"x":646,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0006.png",
+	"frame": {"x":807,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0007.png",
+	"frame": {"x":968,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0008.png",
+	"frame": {"x":1129,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0009.png",
+	"frame": {"x":1290,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0010.png",
+	"frame": {"x":1451,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0011.png",
+	"frame": {"x":1612,"y":2,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0012.png",
+	"frame": {"x":2,"y":222,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0013.png",
+	"frame": {"x":163,"y":222,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0014.png",
+	"frame": {"x":324,"y":222,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_jump0015.png",
+	"frame": {"x":485,"y":222,"w":159,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":218},
+	"sourceSize": {"w":159,"h":218}
+},
+{
+	"filename": "apple_lose0001.png",
+	"frame": {"x":646,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0002.png",
+	"frame": {"x":784,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0003.png",
+	"frame": {"x":922,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0004.png",
+	"frame": {"x":1060,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0005.png",
+	"frame": {"x":1198,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0006.png",
+	"frame": {"x":1336,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0007.png",
+	"frame": {"x":1474,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0008.png",
+	"frame": {"x":1612,"y":222,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0009.png",
+	"frame": {"x":2,"y":442,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_lose0010.png",
+	"frame": {"x":140,"y":442,"w":136,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":164},
+	"sourceSize": {"w":136,"h":164}
+},
+{
+	"filename": "apple_stand.png",
+	"frame": {"x":278,"y":442,"w":92,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":180},
+	"sourceSize": {"w":92,"h":180}
+},
+{
+	"filename": "apple_win0001.png",
+	"frame": {"x":372,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0002.png",
+	"frame": {"x":487,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0003.png",
+	"frame": {"x":602,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0004.png",
+	"frame": {"x":717,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0005.png",
+	"frame": {"x":832,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0006.png",
+	"frame": {"x":947,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0007.png",
+	"frame": {"x":1062,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0008.png",
+	"frame": {"x":1177,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0009.png",
+	"frame": {"x":1292,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0010.png",
+	"frame": {"x":1407,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0011.png",
+	"frame": {"x":1522,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0012.png",
+	"frame": {"x":1637,"y":442,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0013.png",
+	"frame": {"x":2,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0014.png",
+	"frame": {"x":117,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0015.png",
+	"frame": {"x":232,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0016.png",
+	"frame": {"x":347,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0017.png",
+	"frame": {"x":462,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0018.png",
+	"frame": {"x":577,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0019.png",
+	"frame": {"x":692,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0020.png",
+	"frame": {"x":807,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0021.png",
+	"frame": {"x":922,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0022.png",
+	"frame": {"x":1037,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0023.png",
+	"frame": {"x":1152,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0024.png",
+	"frame": {"x":1267,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0025.png",
+	"frame": {"x":1382,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0026.png",
+	"frame": {"x":1497,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0027.png",
+	"frame": {"x":1612,"y":626,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0028.png",
+	"frame": {"x":2,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0029.png",
+	"frame": {"x":117,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0030.png",
+	"frame": {"x":232,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0031.png",
+	"frame": {"x":347,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0032.png",
+	"frame": {"x":462,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0033.png",
+	"frame": {"x":577,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0034.png",
+	"frame": {"x":692,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0035.png",
+	"frame": {"x":807,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0036.png",
+	"frame": {"x":922,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0037.png",
+	"frame": {"x":1037,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0038.png",
+	"frame": {"x":1152,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0039.png",
+	"frame": {"x":1267,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0040.png",
+	"frame": {"x":1382,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0041.png",
+	"frame": {"x":1497,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+},
+{
+	"filename": "apple_win0042.png",
+	"frame": {"x":1612,"y":810,"w":113,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":182},
+	"sourceSize": {"w":113,"h":182}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "apple.png",
+	"format": "RGBA8888",
+	"size": {"w":1773,"h":994},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3093ff9690c1757d5764473853d9834f:8368021b418db73cbabdc7af291d3dde:02331e7122bf2050c0b955cdc26b1b8e$"
+}
+}

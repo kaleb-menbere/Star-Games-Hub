@@ -1,0 +1,97 @@
+
+bumblebee.png
+size: 151,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bumblebee/bb_antena
+  rotate: false
+  xy: 116, 46
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+bumblebee/bb_arm_lower
+  rotate: true
+  xy: 128, 53
+  size: 9, 21
+  orig: 9, 21
+  offset: 0, 0
+  index: -1
+bumblebee/bb_arm_upper
+  rotate: true
+  xy: 2, 2
+  size: 5, 17
+  orig: 5, 17
+  offset: 0, 0
+  index: -1
+bumblebee/bb_body
+  rotate: true
+  xy: 115, 27
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+bumblebee/bb_foot
+  rotate: false
+  xy: 99, 47
+  size: 15, 32
+  orig: 15, 32
+  offset: 0, 0
+  index: -1
+bumblebee/bb_hand
+  rotate: false
+  xy: 132, 40
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+bumblebee/bb_head
+  rotate: false
+  xy: 99, 81
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+bumblebee/bb_hip
+  rotate: true
+  xy: 99, 22
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+bumblebee/bb_leg_lower
+  rotate: true
+  xy: 99, 4
+  size: 16, 29
+  orig: 16, 29
+  offset: 0, 0
+  index: -1
+bumblebee/bb_leg_upper
+  rotate: false
+  xy: 130, 7
+  size: 6, 18
+  orig: 6, 18
+  offset: 0, 0
+  index: -1
+bumblebee/bb_neck
+  rotate: true
+  xy: 21, 2
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+bumblebee/bb_wing
+  rotate: true
+  xy: 132, 64
+  size: 44, 12
+  orig: 44, 12
+  offset: 0, 0
+  index: -1
+bumblebee/hit_graphic
+  rotate: false
+  xy: 2, 9
+  size: 95, 99
+  orig: 95, 99
+  offset: 0, 0
+  index: -1

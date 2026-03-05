@@ -1,0 +1,245 @@
+{
+    "cheats":
+    {
+        "unlockAllCharacters" : false,
+        "unlockAllLevels"     : false
+    },
+
+    "data":
+    {
+        "levels"       : 12,
+        "collectibles" : 12,
+        "unit"         : 100
+    },
+
+    "levels":
+    [
+        {"level": "level_01", "bg": "outside"},
+        {"level": "level_02", "bg": "outside"},
+        {"level": "level_03", "bg": "outside"},
+        {"level": "level_04", "bg": "outside"},
+        {"level": "level_05", "bg": "outside"},
+        {"level": "level_06", "bg": "outside"},
+        {"level": "level_07", "bg": "outside"},
+        {"level": "level_08", "bg": "outside"},
+        {"level": "level_09", "bg": "outside"},
+        {"level": "level_10", "bg": "outside"},
+        {"level": "level_11", "bg": "outside"},
+        {"level": "level_12", "bg": "outside"}
+    ],
+
+    "score" :
+    {
+        "distance"  : 10,
+        "coins"     : 5,
+        "tumble"    : 15,
+        "vehicle"   : 500
+    },
+
+    "lossStreak" :
+    {
+        "losses" : 3,
+        "reward" : 500
+    },
+
+    "dailyBonus" : [1000, 500, 250, 100, 50],
+
+    "promo" :
+    {
+        "time" : 300
+    },
+
+    "endless"   :
+    {
+        "levelRequired"  : 3,
+        "speedIncrement" : 0.01,
+        "speedMax"       : 1.5
+    },
+
+    "playableCharacters" : ["captain_america", "iron_man", "black_widow", "thor", "falcon", "black_panther", "hawkeye", "hulk"],
+
+    "characters" :
+    {
+        "black_panther" :
+        {
+            "id"                 : "black_panther",
+            "jumpHeight"         : 400,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 7
+        },
+        "black_widow" :
+        {
+            "id"                 : "black_widow",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 2
+        },
+        "captain_america" :
+        {
+            "id"                 : "captain_america",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 0
+        },
+        "falcon" :
+        {
+            "id"                 : "falcon",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 5
+        },
+        "hawkeye" :
+        {
+            "id"                 : "hawkeye",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 8
+        },
+        "hulk" :
+        {
+            "id"                 : "hulk",
+            "jumpHeight"         : 500,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1.2,
+            "level"              : 10
+        },
+        "iron_man" :
+        {
+            "id"                 : "iron_man",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 1
+        },
+        "thor" :
+        {
+            "id"                 : "thor",
+            "jumpHeight"         : 350,
+            "tumbleSpeedMin"     : 360,
+            "tumbleSpeedMax"     : 720,
+            "tumbleSpeedTime"    : 0.4,
+            "pickupCircleRadius" : 70,
+            "speedMultiplier"    : 1,
+            "level"              : 4
+        }
+    },
+
+    "skills" :
+    [
+        {
+            "id"      : "tumble",
+            "cost"    : [250,  500,  750],
+            "power"   : [1, 1.5, 2, 2.5],
+            "label"   : "TUMBLE_SPEED",
+            "texture" : "ui_icon_ability_tumble"
+        },
+        {
+            "id"      : "magnet",
+            "cost"    : [500,  1000, 1500],
+            "power"   : [1, 2, 3, 4],
+            "label"   : "TOKEN_MAGNET",
+            "texture" : "ui_icon_ability_magnet"
+        }
+    ],
+
+    "goals" :
+    [
+        {"id" : "run_1",           "type" : "run",           "value" : 200,  "reward" : 50},
+        {"id" : "collectibles_1",  "type" : "collectibles",  "value" : 1,    "reward" : 50},
+        {"id" : "coins_1",         "type" : "coins",         "value" : 50,   "reward" : 50},
+        {"id" : "enemy_1",         "type" : "enemy",         "value" : 1,    "reward" : 50},
+        {"id" : "jump_1",          "type" : "jump",          "value" : 10,   "reward" : 50},
+        {"id" : "special_1",       "type" : "special",       "value" : 5,    "reward" : 50},
+        {"id" : "slide_1",         "type" : "slide",         "value" : 20,   "reward" : 50},
+        {"id" : "collectibles_2",  "type" : "collectibles",  "value" : 3,    "reward" : 100},
+        {"id" : "tumble_1",        "type" : "tumble",        "value" : 5,    "reward" : 50},
+        {"id" : "jump_run_1",      "type" : "jump_run",      "value" : 5,    "reward" : 50},
+        {"id" : "coins_run_1",     "type" : "coins_run",     "value" : 25,   "reward" : 50},
+        {"id" : "tumble_double_1", "type" : "tumble_double", "value" : 3,    "reward" : 100},
+        {"id" : "tumble_run_1",    "type" : "tumble_run",    "value" : 3,    "reward" : 50},
+        {"id" : "enemy_2",         "type" : "enemy",         "value" : 5,    "reward" : 100},
+        {"id" : "slide_run_1",     "type" : "slide_run",     "value" : 25,   "reward" : 50},
+        {"id" : "special_2",       "type" : "special",       "value" : 10,   "reward" : 100},
+        {"id" : "tumble_triple_1", "type" : "tumble_triple", "value" : 3,    "reward" : 150},
+        {"id" : "run_2",           "type" : "run",           "value" : 1000, "reward" : 100},
+        {"id" : "jump_2",          "type" : "jump",          "value" : 50,   "reward" : 100},
+        {"id" : "coins_2",         "type" : "coins",         "value" : 200,  "reward" : 100},
+        {"id" : "slide_2",         "type" : "slide",         "value" : 100,  "reward" : 100},
+        {"id" : "tumble_2",        "type" : "tumble",        "value" : 10,   "reward" : 100},
+        {"id" : "jump_run_2",      "type" : "jump_run",      "value" : 30,   "reward" : 100},
+        {"id" : "coins_run_2",     "type" : "coins_run",     "value" : 100,  "reward" : 100},
+        {"id" : "special_3",       "type" : "special",       "value" : 15,   "reward" : 150},
+        {"id" : "tumble_double_2", "type" : "tumble_double", "value" : 5,    "reward" : 200},
+        {"id" : "tumble_run_2",    "type" : "tumble_run",    "value" : 10,   "reward" : 200},
+        {"id" : "enemy_3",         "type" : "enemy",         "value" : 10,   "reward" : 200},
+        {"id" : "slide_run_2",     "type" : "slide_run",     "value" : 100,  "reward" : 100},
+        {"id" : "tumble_triple_2", "type" : "tumble_triple", "value" : 5,    "reward" : 250},
+        {"id" : "run_3",           "type" : "run",           "value" : 5000, "reward" : 300},
+        {"id" : "jump_3",          "type" : "jump",          "value" : 200,  "reward" : 300},
+        {"id" : "coins_3",         "type" : "coins",         "value" : 500,  "reward" : 300},
+        {"id" : "slide_3",         "type" : "slide",         "value" : 500,  "reward" : 300},
+        {"id" : "tumble_3",        "type" : "tumble",        "value" : 50,   "reward" : 300},
+        {"id" : "jump_run_3",      "type" : "jump_run",      "value" : 100,  "reward" : 300},
+        {"id" : "tumble_double_3", "type" : "tumble_double", "value" : 10,   "reward" : 200},
+        {"id" : "special_4",       "type" : "special",       "value" : 50,   "reward" : 500},
+        {"id" : "tumble_triple_3", "type" : "tumble_triple", "value" : 10,   "reward" : 500},
+        {"id" : "run_4",           "type" : "run",           "value" : 10000, "reward" : 500},
+        {"id" : "enemy_4",         "type" : "enemy",         "value" : 25,    "reward" : 500},
+        {"id" : "jump_4",          "type" : "jump",          "value" : 500,   "reward" : 500},
+        {"id" : "coins_4",         "type" : "coins",         "value" : 1000,  "reward" : 500},
+        {"id" : "slide_4",         "type" : "slide",         "value" : 1000,  "reward" : 500}
+    ],
+
+    "goal_icons":
+    {
+        "run"           : "ui_goal_icon",
+        "slide"         : "ui_goal_icon",
+        "slide_run"     : "ui_goal_icon",
+        "jump"          : "ui_goal_icon",
+        "jump_run"      : "ui_goal_icon",
+        "tumble"        : "ui_goal_icon",
+        "tumble_run"    : "ui_goal_icon",
+        "tumble_double" : "ui_goal_icon",
+        "tumble_triple" : "ui_goal_icon",
+        "ride_sven"     : "ui_goal_icon",
+        "ride_sled"     : "ui_goal_icon",
+        "marshmallow"   : "ui_goal_icon",
+        "coins"         : "ui_goal_icon",
+        "coins_run"     : "ui_goal_icon",
+        "collectibles"  : "ui_goal_icon",
+        "special"       : "ui_goal_icon",
+        "enemy"         : "ui_goal_icon"
+    },
+
+    "codes":
+    {
+        "5555"   : 500,
+        "615431" : 1000
+    }
+}

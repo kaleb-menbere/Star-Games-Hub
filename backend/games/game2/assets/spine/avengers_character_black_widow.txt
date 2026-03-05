@@ -1,0 +1,174 @@
+
+avengers_character_black_widow.png
+size: 291,642
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black_widow/arm_l
+  rotate: true
+  xy: 150, 2
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+black_widow/arm_r
+  rotate: true
+  xy: 214, 13
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+black_widow/belt
+  rotate: true
+  xy: 273, 139
+  size: 52, 16
+  orig: 52, 16
+  offset: 0, 0
+  index: -1
+black_widow/elbow_l
+  rotate: true
+  xy: 221, 71
+  size: 27, 68
+  orig: 27, 68
+  offset: 0, 0
+  index: -1
+black_widow/elbow_r
+  rotate: true
+  xy: 209, 42
+  size: 27, 66
+  orig: 27, 66
+  offset: 0, 0
+  index: -1
+black_widow/foot_l
+  rotate: false
+  xy: 161, 55
+  size: 46, 32
+  orig: 46, 32
+  offset: 0, 0
+  index: -1
+black_widow/foot_r
+  rotate: false
+  xy: 161, 55
+  size: 46, 32
+  orig: 46, 32
+  offset: 0, 0
+  index: -1
+black_widow/hand_l1
+  rotate: true
+  xy: 161, 31
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+black_widow/hand_r1
+  rotate: true
+  xy: 161, 31
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+black_widow/hand_l2
+  rotate: false
+  xy: 70, 45
+  size: 89, 28
+  orig: 89, 28
+  offset: 0, 0
+  index: -1
+black_widow/hand_r2
+  rotate: false
+  xy: 68, 13
+  size: 80, 30
+  orig: 80, 30
+  offset: 0, 0
+  index: -1
+black_widow/head1
+  rotate: true
+  xy: 221, 193
+  size: 54, 68
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+black_widow/shin_l
+  rotate: false
+  xy: 228, 249
+  size: 38, 115
+  orig: 38, 115
+  offset: 0, 0
+  index: -1
+black_widow/shin_r
+  rotate: false
+  xy: 228, 249
+  size: 38, 115
+  orig: 38, 115
+  offset: 0, 0
+  index: -1
+black_widow/thigh_l
+  rotate: true
+  xy: 100, 209
+  size: 50, 119
+  orig: 50, 119
+  offset: 0, 0
+  index: -1
+black_widow/thigh_r
+  rotate: true
+  xy: 100, 157
+  size: 50, 119
+  orig: 50, 119
+  offset: 0, 0
+  index: -1
+black_widow/torso1
+  rotate: true
+  xy: 2, 4
+  size: 42, 64
+  orig: 42, 64
+  offset: 0, 0
+  index: -1
+black_widow/torso2
+  rotate: false
+  xy: 2, 48
+  size: 66, 113
+  orig: 66, 113
+  offset: 0, 0
+  index: -1
+vfx/die_circle
+  rotate: false
+  xy: 2, 366
+  size: 274, 274
+  orig: 274, 274
+  offset: 0, 0
+  index: -1
+vfx/vfx_blast_circle
+  rotate: false
+  xy: 70, 75
+  size: 81, 80
+  orig: 97, 98
+  offset: 8, 10
+  index: -1
+vfx/vfx_blast_ray
+  rotate: false
+  xy: 2, 261
+  size: 224, 103
+  orig: 224, 103
+  offset: 0, 0
+  index: -1
+vfx/vfx_hit
+  rotate: false
+  xy: 153, 89
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+vfx/vfx_kick
+  rotate: false
+  xy: 221, 100
+  size: 50, 91
+  orig: 50, 115
+  offset: 0, 18
+  index: -1
+vfx/vfx_lightning
+  rotate: false
+  xy: 2, 163
+  size: 96, 96
+  orig: 103, 100
+  offset: 2, 1
+  index: -1

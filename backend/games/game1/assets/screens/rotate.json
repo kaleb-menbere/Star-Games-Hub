@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "icon_no.png",
+	"frame": {"x":2,"y":2,"w":199,"h":319},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":319},
+	"sourceSize": {"w":199,"h":319}
+},
+{
+	"filename": "icon_rotate.png",
+	"frame": {"x":203,"y":2,"w":146,"h":146},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":146},
+	"sourceSize": {"w":146,"h":146}
+},
+{
+	"filename": "icon_yes.png",
+	"frame": {"x":351,"y":2,"w":319,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":319,"h":200},
+	"sourceSize": {"w":319,"h":200}
+},
+{
+	"filename": "rotate_apple.png",
+	"frame": {"x":672,"y":2,"w":341,"h":526},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":526},
+	"sourceSize": {"w":341,"h":526}
+},
+{
+	"filename": "rotate_onion.png",
+	"frame": {"x":2,"y":530,"w":264,"h":744},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":744},
+	"sourceSize": {"w":264,"h":744}
+},
+{
+	"filename": "rotate_screen_bg.jpg",
+	"frame": {"x":268,"y":530,"w":720,"h":1280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1280},
+	"sourceSize": {"w":720,"h":1280}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "rotate_screen.png",
+	"format": "RGBA8888",
+	"size": {"w":1015,"h":1812},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b0e12b18467f97596146e1c6f3a79b06:d50dd58e88953a3ceb010a05209e39d9:0649c73d1d0674b0befaa7ae0331ef53$"
+}
+}

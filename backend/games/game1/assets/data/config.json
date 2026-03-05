@@ -1,0 +1,344 @@
+{
+  "game": {
+    "start_at_level": 1
+  },
+  "game_levels": [
+    {
+      "laneCount": 2,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 200,
+      "maxMoveSpeed": 250,
+      "fastLaneCount": 0,
+      "fastLaneMinSpeed": 600,
+      "fastLaneMaxSpeed": 800
+    },
+    {
+      "laneCount": 4,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 150,
+      "maxMoveSpeed": 300,
+      "fastLaneCount": 0,
+      "fastLaneMinSpeed": 600,
+      "fastLaneMaxSpeed": 800
+    },
+    {
+      "laneCount": 4,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 150,
+      "maxMoveSpeed": 300,
+      "fastLaneCount": 1,
+      "fastLaneMinSpeed": 450,
+      "fastLaneMaxSpeed": 600
+    },
+    {
+      "laneCount": 6,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 200,
+      "maxMoveSpeed": 300,
+      "fastLaneCount": 0,
+      "fastLaneMinSpeed": 600,
+      "fastLaneMaxSpeed": 800
+    },
+    {
+      "laneCount": 6,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 150,
+      "maxMoveSpeed": 300,
+      "fastLaneCount": 1,
+      "fastLaneMinSpeed": 450,
+      "fastLaneMaxSpeed": 600
+    },
+    {
+      "laneCount": 8,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 200,
+      "maxMoveSpeed": 300,
+      "fastLaneCount": 1,
+      "fastLaneMinSpeed": 500,
+      "fastLaneMaxSpeed": 650
+    },
+    {
+      "laneCount": 8,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 200,
+      "maxMoveSpeed": 350,
+      "fastLaneCount": 2,
+      "fastLaneMinSpeed": 500,
+      "fastLaneMaxSpeed": 650
+    },
+    {
+      "laneCount": 10,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 250,
+      "maxMoveSpeed": 350,
+      "fastLaneCount": 2,
+      "fastLaneMinSpeed": 500,
+      "fastLaneMaxSpeed": 700
+    },
+    {
+      "laneCount": 10,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 250,
+      "maxMoveSpeed": 400,
+      "fastLaneCount": 2,
+      "fastLaneMinSpeed": 500,
+      "fastLaneMaxSpeed": 700
+    },
+    {
+      "laneCount": 12,
+      "vehicleVariations": 3,
+      "minMoveSpeed": 250,
+      "maxMoveSpeed": 400,
+      "fastLaneCount": 3,
+      "fastLaneMinSpeed": 600,
+      "fastLaneMaxSpeed": 800
+    }
+  ],
+
+  "vehicleBounds": [
+    {
+      "id": "car01",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 32,
+          "width": 55,
+          "height": 140,
+          "fixPosition": 60
+        },
+        {
+          "x": 55,
+          "y": 0,
+          "width": 200,
+          "height": 190,
+          "fixPosition": 30
+        },
+        {
+          "x": 255,
+          "y": 32,
+          "width": 150,
+          "height": 150,
+          "fixPosition": 70
+        }
+      ]
+    },
+    {
+      "id": "car02",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 32,
+          "width": 55,
+          "height": 140,
+          "fixPosition": 60
+        },
+        {
+          "x": 55,
+          "y": 0,
+          "width": 200,
+          "height": 190,
+          "fixPosition": 70
+        },
+        {
+          "x": 255,
+          "y": 32,
+          "width": 150,
+          "height": 150,
+          "fixPosition": 70
+        }
+      ]
+    },
+    {
+      "id": "truck01",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 40,
+          "width": 148,
+          "height": 140,
+          "fixPosition": 65
+        },
+        {
+          "x": 148,
+          "y": 0,
+          "width": 150,
+          "height": 190,
+          "fixPosition": 30
+        },
+        {
+          "x": 298,
+          "y": 30,
+          "width": 105,
+          "height": 150,
+          "fixPosition": 70
+        }
+      ]
+    },
+    {
+      "id": "truck02",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 40,
+          "width": 148,
+          "height": 140,
+          "fixPosition": 65
+        },
+        {
+          "x": 148,
+          "y": 0,
+          "width": 150,
+          "height": 190,
+          "fixPosition": 30
+        },
+        {
+          "x": 298,
+          "y": 30,
+          "width": 105,
+          "height": 150,
+          "fixPosition": 70
+        }
+      ]
+    },
+    {
+      "id": "van01",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 290,
+          "height": 200,
+          "fixPosition": 35
+        },
+        {
+          "x": 290,
+          "y": 20,
+          "width": 110,
+          "height": 160,
+          "fixPosition": 80
+        }
+      ]
+    },
+    {
+      "id": "van02",
+      "bounds": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 290,
+          "height": 200,
+          "fixPosition": 35
+        },
+        {
+          "x": 290,
+          "y": 20,
+          "width": 110,
+          "height": 160,
+          "fixPosition": 80
+        }
+      ]
+    }
+  ],
+
+  "audio": ["title_music", "road_ambience"],
+  "audioIE": [
+    "apple_chosen",
+    "apple_lose",
+    "cat_meow",
+    "click_mouse_over",
+    "game_complete",
+    "jump",
+    "lose",
+    "musical_moment",
+    "onion_chosen",
+    "onion_lose",
+    "stamp",
+    "tyre_squeal",
+    "welcome"
+  ],
+  "audioSprites": ["games_sfx_base"],
+
+  "screenhud": {
+    "help": {
+      "id": "btn_help",
+      "skin": "btn_help",
+      "position": { "grouped": true, "id": "TOP_LEFT" },
+      "ariaLabelID": "ariaLabelHud_instructions"
+    },
+    "sound": {
+      "id": "btn_sound",
+      "position": { "grouped": true, "id": "TOP_RIGHT" },
+      "ariaLabelID": "ariaLabelHud_togglesound",
+      "skins": {
+        "unmuted": "btn_sound_off",
+        "muted": "btn_sound_on"
+      }
+    },
+    "play": {
+      "position": { "grouped": false, "x": 0.7, "y": 0.65 },
+      "id": "btn_play",
+      "skin": "btn_play",
+      "ariaLabelID": "ariaLabelHud_new_game"
+    },
+    "pause": {
+      "id": "btn_pause",
+      "skin": "btn_pause",
+      "position": { "grouped": true, "id": "TOP_LEFT" },
+      "ariaLabelID": "ariaLabelHud_pause"
+    },
+    "paused_continue": {
+      "position": { "grouped": false, "x": 0.51, "y": 0.38 },
+      "id": "btn_paused_continue",
+      "skin": "btn_continue",
+      "ariaLabelID": "ariaLabelHud_continue"
+    },
+    "paused_restart": {
+      "position": { "grouped": false, "x": 0.51, "y": 0.6 },
+      "id": "btn_paused_restart",
+      "skin": "btn_restart",
+      "ariaLabelID": "ariaLabelHud_restart"
+    },
+    "paused_credits": {
+      "position": { "grouped": false, "x": 0.51, "y": 0.8 },
+      "id": "btn_paused_credits",
+      "skin": "btn_credits",
+      "ariaLabelID": "ariaLabelHud_credits"
+    },
+    "home": {
+      "id": "btn_home",
+      "skin": "btn_home",
+      "position": { "grouped": true, "id": "TOP_LEFT" },
+      "ariaLabelID": "ariaLabelHud_home"
+    },
+    "back": {
+      "id": "btn_back",
+      "skin": "btn_back",
+      "position": { "grouped": true, "id": "TOP_LEFT" },
+      "ariaLabelID": "ariaLabelHud_home"
+    },
+    "levelend_continue": {
+      "position": { "grouped": false, "x": 0.51, "y": 0.84 },
+      "id": "btn_levelend_continue",
+      "skin": "btn_levelend_continue",
+      "ariaLabelID": "ariaLabelHud_continue"
+    },
+    "gameend_restart": {
+      "position": { "grouped": false, "x": 0.5, "y": 0.84 },
+      "id": "btn_home",
+      "skin": "btn_continue",
+      "ariaLabelID": "ariaLabelHud_restart"
+    }
+  },
+  "buttons": {
+    "instructionsClose": {
+      "id": "btn_levelend_continue",
+      "skin": "btn_levelend_continue",
+      "ariaLabelID": "ariaLabelHud_continue"
+    },
+    "creditsBack": {
+      "id": "btn_credits_back",
+      "skin": "btn_credits_back",
+      "ariaLabelID": "ariaLabelHud_back"
+    }
+  }
+}

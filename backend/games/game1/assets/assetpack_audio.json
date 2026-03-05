@@ -1,0 +1,112 @@
+{
+  "audio": [
+    {
+      "type": "audio",
+      "key": "title_music",
+      "urls": ["audio/title_music.mp3", "audio/title_music.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "road_ambience",
+      "urls": ["audio/road_ambience.mp3", "audio/road_ambience.ogg"],
+      "autoDecode": true
+    }
+  ],
+  "sprites_64": [
+    {
+      "type": "audiosprite",
+      "key": "games_sfx_base",
+      "urls": ["audiosprites/64/games_sfx_base.mp3", "audiosprites/64/games_sfx_base.ogg", "audiosprites/64/games_sfx_base.mp3"],
+      "jsonURL": "audiosprites/64/games_sfx_base.json",
+      "jsonData": null,
+      "autoDecode": true
+    }
+  ],
+  "audioIE": [
+    {
+      "type": "audio",
+      "key": "apple_chosen",
+      "urls": ["audio/apple_chosen.mp3", "audio/apple_chosen.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "apple_lose",
+      "urls": ["audio/apple_lose.mp3", "audio/apple_lose.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "cat_meow",
+      "urls": ["audio/cat_meow.mp3", "audio/cat_meow.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "click_mouse_over",
+      "urls": ["audio/click_mouse_over.mp3", "audio/click_mouse_over.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "game_complete",
+      "urls": ["audio/game_complete.mp3", "audio/game_complete.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "jump",
+      "urls": ["audio/jump.mp3", "audio/jump.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "lose",
+      "urls": ["audio/lose.mp3", "audio/lose.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "musical_moment",
+      "urls": ["audio/musical_moment.mp3", "audio/musical_moment.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "onion_chosen",
+      "urls": ["audio/onion_chosen.mp3", "audio/onion_chosen.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "onion_lose",
+      "urls": ["audio/onion_lose.mp3", "audio/onion_lose.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "stamp",
+      "urls": ["audio/stamp.mp3", "audio/stamp.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "stamp",
+      "urls": ["audio/stamp.mp3", "audio/stamp.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "tyre_squeal",
+      "urls": ["audio/tyre_squeal.mp3", "audio/tyre_squeal.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "welcome",
+      "urls": ["audio/welcome.mp3", "audio/welcome.ogg"],
+      "autoDecode": true
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{"frames": [
+
+{
+	"filename": "onion_complete_b0001.png",
+	"frame": {"x":2,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0002.png",
+	"frame": {"x":262,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0003.png",
+	"frame": {"x":522,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0004.png",
+	"frame": {"x":782,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0005.png",
+	"frame": {"x":1042,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0006.png",
+	"frame": {"x":1302,"y":2,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0007.png",
+	"frame": {"x":2,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0008.png",
+	"frame": {"x":262,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0009.png",
+	"frame": {"x":522,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0010.png",
+	"frame": {"x":782,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0011.png",
+	"frame": {"x":1042,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0012.png",
+	"frame": {"x":1302,"y":370,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0013.png",
+	"frame": {"x":2,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0014.png",
+	"frame": {"x":262,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0015.png",
+	"frame": {"x":522,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0016.png",
+	"frame": {"x":782,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0017.png",
+	"frame": {"x":1042,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0018.png",
+	"frame": {"x":1302,"y":738,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0019.png",
+	"frame": {"x":2,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0020.png",
+	"frame": {"x":262,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0021.png",
+	"frame": {"x":522,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0022.png",
+	"frame": {"x":782,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0023.png",
+	"frame": {"x":1042,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0024.png",
+	"frame": {"x":1302,"y":1106,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0025.png",
+	"frame": {"x":2,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0026.png",
+	"frame": {"x":262,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0027.png",
+	"frame": {"x":522,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0028.png",
+	"frame": {"x":782,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0029.png",
+	"frame": {"x":1042,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+},
+{
+	"filename": "onion_complete_b0030.png",
+	"frame": {"x":1302,"y":1474,"w":258,"h":366},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":366},
+	"sourceSize": {"w":258,"h":366}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "onion_complete_b.png",
+	"format": "RGBA8888",
+	"size": {"w":1562,"h":1842},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:134c6e3a6c3334089385b4fd697af443:d429c39ab4c557779346ad215f4e8a01:ca9503c42f1a1e559444b9f84cfb4d01$"
+}
+}

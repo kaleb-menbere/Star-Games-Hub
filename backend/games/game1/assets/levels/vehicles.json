@@ -1,0 +1,236 @@
+{"frames": [
+
+{
+	"filename": "car_010001.png",
+	"frame": {"x":1223,"y":417,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010002.png",
+	"frame": {"x":1630,"y":612,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010003.png",
+	"frame": {"x":1223,"y":612,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010004.png",
+	"frame": {"x":2,"y":807,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010005.png",
+	"frame": {"x":816,"y":612,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010006.png",
+	"frame": {"x":2,"y":612,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010007.png",
+	"frame": {"x":409,"y":807,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010008.png",
+	"frame": {"x":1223,"y":807,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010009.png",
+	"frame": {"x":409,"y":1002,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_010010.png",
+	"frame": {"x":2,"y":1002,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020001.png",
+	"frame": {"x":816,"y":1002,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020002.png",
+	"frame": {"x":1630,"y":807,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020003.png",
+	"frame": {"x":816,"y":807,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020004.png",
+	"frame": {"x":409,"y":612,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020005.png",
+	"frame": {"x":1630,"y":417,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020006.png",
+	"frame": {"x":1220,"y":221,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020007.png",
+	"frame": {"x":1627,"y":221,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020008.png",
+	"frame": {"x":2,"y":417,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020009.png",
+	"frame": {"x":409,"y":417,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "car_020010.png",
+	"frame": {"x":816,"y":417,"w":405,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":193},
+	"sourceSize": {"w":405,"h":193}
+},
+{
+	"filename": "truck_010001.png",
+	"frame": {"x":2,"y":221,"w":404,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":404,"h":194},
+	"sourceSize": {"w":404,"h":194}
+},
+{
+	"filename": "truck_010002.png",
+	"frame": {"x":1604,"y":2,"w":404,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":404,"h":194},
+	"sourceSize": {"w":404,"h":194}
+},
+{
+	"filename": "truck_020001.png",
+	"frame": {"x":408,"y":221,"w":404,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":404,"h":194},
+	"sourceSize": {"w":404,"h":194}
+},
+{
+	"filename": "truck_020002.png",
+	"frame": {"x":814,"y":221,"w":404,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":404,"h":194},
+	"sourceSize": {"w":404,"h":194}
+},
+{
+	"filename": "van_010001.png",
+	"frame": {"x":802,"y":2,"w":399,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":399,"h":217},
+	"sourceSize": {"w":399,"h":217}
+},
+{
+	"filename": "van_010002.png",
+	"frame": {"x":1203,"y":2,"w":399,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":399,"h":217},
+	"sourceSize": {"w":399,"h":217}
+},
+{
+	"filename": "van_020001.png",
+	"frame": {"x":402,"y":2,"w":398,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":398,"h":217},
+	"sourceSize": {"w":398,"h":217}
+},
+{
+	"filename": "van_020002.png",
+	"frame": {"x":2,"y":2,"w":398,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":398,"h":217},
+	"sourceSize": {"w":398,"h":217}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "vehicles.png",
+	"format": "RGBA8888",
+	"size": {"w":2037,"h":1197},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8bdd6196a0068c7943ce5a62b56ac17c:aadbd6253f804887905510a606ccebdf:82467e3b637fc9a91fbb58f83d449d45$"
+}
+}

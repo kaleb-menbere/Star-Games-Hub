@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+  <!-- Website Link  -->
+  <item id="cn_site_link"><![CDATA[https://www.forestrygames.com/]]></item>
+
+
+
+  <item id="loading"><![CDATA[LOADING]]></item>
+
+  <!-- Instruction Labels -->
+  <item id="how_to_play"><![CDATA[HOW TO PLAY]]></item>
+
+  <item id="how_to_play_body"><![CDATA[Tap to jump on top of the cars to save Cat. 
+
+Can you make it through 10 levels of increasing difficulty?!]]></item>
+
+  <!-- Warning Labels -->
+  <item id="warning"><![CDATA[WARNING]]></item>
+  <item id="warning_body"><![CDATA[ROADS ARE DANGEROUS PLACES FOR APPLES, ONIONS, CATS AND YOU!]]></item>
+
+
+  <!-- Character selection Labels -->
+
+  <item id="character_select"><![CDATA[SELECT A CHARACTER]]></item>
+
+  <!-- Level finish Labels -->
+  <item id="level"><![CDATA[LEVEL]]></item>
+  <item id="game"><![CDATA[GAME]]></item>
+  <item id="complete"><![CDATA[COMPLETE!]]></item>
+  <item id="failed"><![CDATA[FAILED!]]></item>
+
+  <!-- Pause Labels -->
+  
+  <item id="pause"><![CDATA[GAME PAUSED!]]></item>
+
+
+</data>

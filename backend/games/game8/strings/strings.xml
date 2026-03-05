@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" ><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<preloader>
+		<loading><![CDATA[LOADING]]></loading>
+	</preloader>
+
+	<title>
+		<game_name><![CDATA[TURBO 360]]></game_name>
+		<cta><![CDATA[CLICK ANYWHERE TO PLAY]]></cta>
+		<cta_mobile><![CDATA[TAP ANYWHERE TO PLAY]]></cta_mobile>
+	</title>
+
+	<pause>
+		<pause_header><![CDATA[GAME PAUSED]]></pause_header>
+
+		<confirm_header><![CDATA[ARE YOU SURE?]]></confirm_header>
+
+		<intro_p_one><![CDATA[TIME TO DO SOME<br>TRAINING WITH<br>MAX'S NEW GREEN<br>TURBO ENERGY!]]></intro_p_one>
+		<intro_p_two><![CDATA[STEP INTO THE TRAINING ROOM<br>AND BATTLE SWARMS OF<br>HOLOGRAPHIC MONSTRO MINIONS. <br><br>HOW MANY CAN YOU DEFEAT?]]></intro_p_two>
+		
+		<tutorial_header><![CDATA[CONTROLS:]]></tutorial_header>
+		<tutorial_step1><![CDATA[CLICK HERE OR<br>PRESS 1,2,3 TO<br>CHANGE MODES]]></tutorial_step1>
+		<tutorial_step1_mob><![CDATA[TAP HERE TO<br>CHANGE MODES]]></tutorial_step1_mob>
+		<tutorial_step2><![CDATA[CLICK ANYWHERE<br>AROUND MAX<br>TO ATTACK!]]></tutorial_step2>
+		<tutorial_step2_mob><![CDATA[TAP ANYWHERE<br>AROUND MAX<br>TO ATTACK!]]></tutorial_step2_mob>
+	</pause>
+
+	<gameplay>
+		<score_default><![CDATA[0]]></score_default>
+	</gameplay>
+
+	<countdown>
+		<go><![CDATA[GO!]]></go>
+	</countdown>
+
+	<gameover>
+		<header><![CDATA[NICE TRY!]]></header>
+		<message><![CDATA[PLAY AGAIN TO MAX<br>OUT YOUR HIGH SCORE!]]></message>
+		<score_label><![CDATA[SCORE:]]></score_label>
+		<highscore_label><![CDATA[HIGH SCORE:]]></highscore_label>
+	</gameover>
+
+</strings>

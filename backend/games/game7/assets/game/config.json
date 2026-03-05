@@ -1,0 +1,265 @@
+{
+    "assets": {
+        "backgroundContainer": {
+            "transform": {
+                "position": { "x": 0, "y": 0 }
+            },
+            "display": {
+                
+            },
+            "sounds": {
+                
+            },
+            "variables": {
+                "amount": 4,
+                "foreground": {
+                    "transform": {
+                        "position": { "x": 0, "y": 650 }
+                    },
+                    "display": {
+                        "chunks": [
+                            "buildings1",
+                            "buildings2",
+                            "buildings3"
+                        ]
+                    },
+                    "sounds": {
+                        
+                    },
+                    "variables": {
+                        "width": 250,
+                        "amount": 4,
+                        "speed": {"x": 0, "y": 0}
+                    }
+                },
+                "background": {
+                    "transform": {
+                        "position": { "x": 0, "y": 100 }
+                    },
+                    "display": {
+                        "primary": "bgBackground"
+                    },
+                    "sounds": {
+                        
+                    },
+                    "variables": {
+                        "width": 221,
+                        "amount": 4,
+                        "speed": {"x": 0.75, "y": 0.05}
+                    }
+                }
+            }
+        },
+        "player": {
+            "transform": {
+                "position": { "x": 150, "y": -127 },
+                "collider": {
+                    "size": {"x": 124, "y": 174}, 
+                    "offset":{"x": -62, "y": -87}
+                }
+            },
+            "display": {
+                "primary": "charStart",
+                "jump": "charJump",
+                "attack": "charHit",
+                "stand": "charStand",
+                "smash": "charSmash"
+            },
+            "sounds": {
+                "launch": "launch",
+                "groundHit": "groundHit",
+                "woosh": "woosh",
+                "hulkSmashStart": "hulkSmashStart"
+            },
+            "variables": {
+                
+            }
+        },
+        "hulkSmash": {
+            "transform": {
+                "position": { "x": 0, "y": 0 },
+                "collider": {
+                    "size": {"x": 257, "y": 1000}, 
+                    "offset":{"x": 0, "y": -1000}
+                }
+            },
+            "display": {
+                "primary": "fxSmash"
+            },
+            "sounds": {
+                "hulkSmashLoop": "hulkSmashLoop"
+            },
+            "variables": {
+                "speed": 2000
+            }
+        },
+        "enemySpawner": {
+            "transform": {
+                
+            },
+            "display": {
+                
+            },
+            "sounds": {
+                
+            },
+            "variables": {
+                "spawnTime": 1000
+            }
+        },
+        "enemyNormal": {
+            "transform": {
+                "position": { "x": 0, "y": 0 },
+                "collider": {
+                    "size": {"x": 274, "y": 124}, 
+                    "offset":{"x": -137, "y": -62}
+                }
+            },
+            "display": {
+                "primary": "shipGoldActive",
+                "dead": "shipGoldHit"
+            },
+            "sounds": {
+                "shipExplosion": "shipExplosion"
+            },
+            "variables": {
+                "points": 100,
+                "destruction": 100
+            }
+        },
+        "enemyBoost": {
+            "transform": {
+                "position": { "x": 0, "y": 0 },
+                "collider": {
+                    "size": {"x": 408, "y": 148}, 
+                    "offset":{"x": -204, "y": -74}
+                }
+            },
+            "display": {
+                "primary": "shipSilverActive",
+                "dead": "shipSilverHit"
+            },
+            "sounds": {
+                "shipBigExplosion": "shipBigExplosion"
+            },
+            "variables": {
+                "points": 200,
+                "destruction": 200
+            }
+        },
+        "destructionMeter": {
+            "transform": {
+                "position": { "x": 0, "y": 0 }
+            },
+            "display": {
+                "background": "barContainer",
+                "foreground": "destructionMeterForeground",
+                "icon": "iconSmash"
+            },
+            "sounds": {
+                
+            },
+            "variables": {
+                
+            }
+        },
+        "launch": {
+            "transform": {
+                "position": { "x": 0, "y": 0 }
+            },
+            "display": {
+                
+            },
+            "sounds": {
+                "launchSet": "launchSet"
+            },
+            "variables": {
+                
+            }
+        },
+        "powerBar": {
+            "transform": {
+                "position": { "x": -50, "y": -40 }
+            },
+            "display": {
+                "background": "barContainer",
+                "foreground": "powerBarForeground",
+                "icon": "iconMax"
+            },
+            "sounds": {
+                "launchBlip": "launchBlip"
+            },
+            "variables": {
+                
+            }
+        },
+        "launchArrow": {
+            "transform": {
+                "position": { "x": 255, "y": -155 }
+            },
+            "display": {
+                "primary": "launchArrow",
+                "launchRange": "launchRange"
+            },
+            "sounds": {
+                "launchBlip": "launchBlip"
+            },
+            "variables": {
+                
+            }
+        },
+        "endScreen": {
+            "transform": {
+                "position": { "x": 0, "y": 0 }
+            },
+            "display": {
+                "primary": "endScreen",
+                "replayButton": "replayButton",
+                "replayButtonHover": "replayButtonHover"
+            },
+            "sounds": {
+                "buttonClick": "button_click"
+            },
+            "variables": {
+                
+            }
+        },
+        "state": {
+            "sounds":{
+                "bgm": "game_bgm"
+            }
+        }
+    },
+    "sounds": {
+        "channels": {
+            "music": {
+                "volume": 1,
+                "singleTrack": true,
+                "trackMap": { 
+                    "game_bgm": { "volume": 0.75, "looping": true, "priority": 0 }
+                }
+            },
+            "sfx": {
+                "volume": 1,
+                "singleTrack": false,
+                "trackMap": {
+                    "launchBlip": { "volume": 0.5, "looping": false, "priority": 0 },
+                    "launchSet": { "volume": 0.5, "looping": false, "priority": 0 },
+                    "launch": { "volume": 1, "looping": false, "priority": 0 },
+                    "shipExplosion": { "volume": 1, "looping": false, "priority": 0 },
+                    "shipBigExplosion": { "volume": 1, "looping": false, "priority": 0 },
+                    "groundHit": { "volume": 1, "looping": false, "priority": 0 },
+                    "hulkSmashStart": { "volume": 1, "looping": false, "priority": 0 },
+                    "hulkSmashLoop": { "volume": 1, "looping": true, "priority": 0 }
+                }
+            },
+            "woosh": {
+                "volume": 1,
+                "singleTrack": false,
+                "trackMap": {
+                    "woosh": { "volume": 1, "looping": true, "priority": 0 }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+
+avengers_character_enemy_scientist_back.png
+size: 497,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy_scientist_back/arm_l
+  rotate: false
+  xy: 331, 22
+  size: 30, 73
+  orig: 30, 73
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/arm_r
+  rotate: false
+  xy: 363, 23
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/belt
+  rotate: false
+  xy: 331, 2
+  size: 56, 18
+  orig: 56, 18
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/coat
+  rotate: true
+  xy: 182, 13
+  size: 82, 147
+  orig: 82, 147
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/elbow_l
+  rotate: true
+  xy: 440, 37
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/elbow_r
+  rotate: true
+  xy: 399, 2
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/hand_l1
+  rotate: true
+  xy: 451, 10
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/hand_r1
+  rotate: true
+  xy: 451, 70
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/head
+  rotate: false
+  xy: 399, 36
+  size: 39, 59
+  orig: 39, 59
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/leg_l
+  rotate: false
+  xy: 34, 5
+  size: 29, 90
+  orig: 29, 90
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/leg_r
+  rotate: false
+  xy: 2, 3
+  size: 30, 92
+  orig: 30, 92
+  offset: 0, 0
+  index: -1
+enemy_scientist_back/torso
+  rotate: true
+  xy: 65, 10
+  size: 85, 115
+  orig: 85, 115
+  offset: 0, 0
+  index: -1

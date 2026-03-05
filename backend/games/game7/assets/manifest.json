@@ -1,0 +1,76 @@
+{
+    "main": {
+        "images": [
+            { "key": "loadingBackground", "url": "assets/main/images/loading.png" },
+            { "key": "barContainer", "url": "assets/main/images/barContainer.png" },
+            { "key": "powerBarForeground", "url": "assets/main/images/powerBarForeground.png" }
+        ],
+        "json": [
+            { "key": "mainConfig", "url": "assets/main/config.json" }
+        ],
+        "audio": [
+            { "key": "button_click", "url": ["assets/main/audio/button_click.mp3", "assets/main/audio/button_click.ogg"] }
+        ]
+    },
+    "title": {
+        "images": [
+            { "key": "titleBackground", "url": "assets/title/images/background.png" },
+            { "key": "copyright", "url": "assets/title/images/copyright.png" },
+            { "key": "playButton", "url": "assets/title/images/playButton.png" },
+            { "key": "playButtonHover", "url": "assets/title/images/playButtonHover.png" }
+        ],
+        "json": [
+            { "key": "titleConfig", "url": "assets/title/config.json" }
+        ],
+        "audio": [
+            { "key": "titlescreen_bgm", "url": ["assets/title/audio/titlescreen_bgm.mp3", "assets/title/audio/titlescreen_bgm.ogg"] }
+        ]
+    },
+    "tutorial": {
+        "images": [
+            { "key": "tutorialDesktop", "url": "assets/tutorial/images/tutorialDesktop.png" },
+            { "key": "tutorialMobile", "url": "assets/tutorial/images/tutorialMobile.png" },
+            { "key": "playButton", "url": "assets/title/images/playButton.png" },
+            { "key": "playButtonHover", "url": "assets/title/images/playButtonHover.png" }
+        ],
+        "json": [
+            { "key": "tutorialConfig", "url": "assets/tutorial/config.json" }
+        ],
+        "audio": [
+            { "key": "titlescreen_bgm", "url": ["assets/title/audio/titlescreen_bgm.mp3", "assets/title/audio/titlescreen_bgm.ogg"] }
+        ]
+    },
+    "game": {
+        "images": [
+            { "key": "bgBackground", "url": "assets/game/images/bg_background.png" },
+            { "key": "skyline", "url": "assets/game/images/bg_sky.png" },
+            { "key": "destructionMeterForeground", "url": "assets/game/images/destructionMeterForeground.png" },
+            { "key": "iconMax", "url": "assets/game/images/iconMax.png" },
+            { "key": "iconSmash", "url": "assets/game/images/iconSmash.png" },
+            { "key": "launchArrow", "url": "assets/game/images/launchArrow.png" },
+            { "key": "launchRange", "url": "assets/game/images/launchRange.png" },
+            { "key": "endScreen", "url": "assets/game/images/endScreen.png" },
+            { "key": "ulBlack", "url": "assets/game/images/ulBlack.png" },
+            { "key": "replayButton", "url": "assets/game/images/replayButton.png" },
+            { "key": "replayButtonHover", "url": "assets/game/images/replayButtonHover.png" }
+        ],
+        "json": [
+            { "key": "gameConfig", "url": "assets/game/config.json" }
+        ],
+        "flump": [
+            { "key": "gameLibrary", "pngs": ["assets/game/flump/atlas0.png", "assets/game/flump/atlas1.png", "assets/game/flump/atlas2.png", "assets/game/flump/atlas3.png"], "library": "assets/game/flump/library.json" }
+        ],
+        "audio": [
+            { "key": "game_bgm", "url": ["assets/game/audio/game_bgm.mp3", "assets/game/audio/game_bgm.ogg"] },
+            { "key": "launchBlip", "url": ["assets/game/audio/launchBlip.mp3", "assets/game/audio/launchBlip.ogg"] },
+            { "key": "launchSet", "url": ["assets/game/audio/launchSet.mp3", "assets/game/audio/launchSet.ogg"] },
+            { "key": "launch", "url": ["assets/game/audio/launch.mp3", "assets/game/audio/launch.ogg"] },
+            { "key": "shipExplosion", "url": ["assets/game/audio/shipExplosion.mp3", "assets/game/audio/shipExplosion.ogg"] },
+            { "key": "shipBigExplosion", "url": ["assets/game/audio/shipBigExplosion.mp3", "assets/game/audio/shipBigExplosion.ogg"] },
+            { "key": "groundHit", "url": ["assets/game/audio/groundHit.mp3", "assets/game/audio/groundHit.ogg"] },
+            { "key": "hulkSmashStart", "url": ["assets/game/audio/hulkSmashStart.mp3", "assets/game/audio/hulkSmashStart.ogg"] },
+            { "key": "hulkSmashLoop", "url": ["assets/game/audio/hulkSmashLoop.mp3", "assets/game/audio/hulkSmashLoop.ogg"] },
+            { "key": "woosh", "url": ["assets/game/audio/woosh.mp3", "assets/game/audio/woosh.ogg"] }
+        ]
+    }
+}

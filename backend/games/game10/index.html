@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spider-Man: Mysterio Rush - HTML5 Game</title>
+    <meta name="description" content="Spider-Man: Mysterio Rush - Forestry Games">
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="game name">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="minimal-ui, initial-scale=1, maximum-scale=1, width=device-width, height=device-height, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="media/images/icons/favicon.png">
+    <link rel="shortcut icon" href="media/images/icons/favicon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="media/images/icons/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="media/images/icons/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="media/images/icons/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="media/images/icons/apple-icon-144x144.png" />
+    <link rel="stylesheet" type="text/css" href="css/game.css" />
+    <script type="text/javascript" src="js/lib/pixi.min.js"></script>
+    <script type="text/javascript" src="js/lib/soundjs.min.js"></script>
+    <script type="text/javascript" src="js/lib/soundmanager2-jsmin.js"></script>
+    <script type="text/javascript" src="js/game_html_headScripts.js"></script>
+    <script type="text/javascript" src="js/config/levels.js"></script>
+    <script type="text/javascript" src="media/strings/strings.js"></script>
+    <script type="text/javascript" src="js/config/bundles.js"></script>
+    <script type="text/javascript" src="js/config/config.js"></script>
+    <script type="text/javascript" src="js/config/gui.js"></script>
+    <script type="text/javascript" src="media/strings/styles.js"></script>
+    <script type="text/javascript" src="js/config/swit_boot.js"></script>
+</head>
+
+<body>
+    <div id="SWT_FONTS_DIV" style="position:absolute;">
+        <font face="arialbold">.</font>
+        <font face="bamtangviscachatitulargordisRg">.</font>
+        <font face="bamtangguacamayotitulargordisBd">.</font>
+        <font face="bamtangllamagenialgordisXBd">.</font>
+    </div>
+    <script>
+    // Cordova app never returns 200 status when completing ajax requests. This ensures that it does.
+    (function() {
+        // if we are loading files from file:///
+        var isCordova = /^file:\/{3}[^\/]/i.test(window.location.href);
+
+        if (isCordova) {
+            // inside a cordova app, the status property will be 0 becauase of the path 'file:///'
+            XMLHttpRequest.prototype._status = 0;
+            Object.defineProperties(window.XMLHttpRequest.prototype, {
+                status: {
+                    get: function() {
+                        // once the request is done (readyState === 4), we assume the status is 200, NOT 0
+                        return this.readyState === 4 && !this._status ? 200 : this._status;
+                    },
+                    set: function(value) {
+                        this._status = value;
+                    }
+                }
+            });
+        }
+    })();
+    </script>
+    <script>
+    (function() {
+        var isFileProtocol = 'file:' === document.location.protocol;
+        if (isFileProtocol) {
+            window.runISL = function() {
+                if (window.gameStart && typeof window.gameStart === 'function') {
+                    window.gameStart();
+                }
+            }
+        } else {
+            var isl = document.createElement('script');
+            isl.type = 'text/javascript';
+            isl.src = 'js/isl.js';
+
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(isl, node);
+        }
+    })();
+    </script>
+    <script type="text/javascript" src="js/game.min.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+        if (window.runISL) {
+            window.runISL();
+        }
+    }
+    </script>
+    <div class="spacer"></div>
+    <!-- <script src="/games/shared/payment-check.js"></script> -->
+</body>
+
+</html>

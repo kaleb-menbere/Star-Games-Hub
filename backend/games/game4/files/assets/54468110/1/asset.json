@@ -1,0 +1,8 @@
+{ 
+    "language": "en",
+    "locale": "GB",
+    "debugMode": true,
+    "debugRenderPhysics": false,
+    "clearData": false,
+    "offline": true
+}

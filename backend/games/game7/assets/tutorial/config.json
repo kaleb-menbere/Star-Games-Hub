@@ -1,0 +1,39 @@
+{
+    "assets": {
+        "state": {
+            "display": {
+                "tutorialDesktop": "tutorialDesktop",
+                "tutorialMobile": "tutorialMobile"
+            },
+            "sounds":{
+                "bgm": "titlescreen_bgm"
+            }
+        },
+        "playButton": {
+            "transform": {
+                "position": { "x": -5, "y": -5 }
+            },
+            "display": {
+                "primary": "playButton",
+                "hover": "playButtonHover"
+            },
+            "sounds": {
+                "buttonClick": "button_click"
+            },
+            "variables": {
+                
+            }
+        }
+    },
+    "sounds": {
+        "channels": {
+            "music": {
+                "volume": 1,
+                "singleTrack": true,
+                "trackMap": { 
+                    "titlescreen_bgm": { "volume": 1, "looping": true, "priority": 0 }
+                }
+            }
+        }
+    }
+}

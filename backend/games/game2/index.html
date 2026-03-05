@@ -1,0 +1,66 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>AVENGERS HYDRA DASH - HTML5 Game</title>
+        <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="pragma" content="no-cache" />
+
+        <script src="libs/pixi/pixi.min.js"></script>
+        <script src="libs/pixi/pixi-particles.min.js"></script>
+        <script src="libs/pixi/pixi-ext.js"></script>
+        <script src="libs/pixi/pixi-spine.js"></script>
+        <script src="libs/signals.min.js"></script>
+        <script src="libs/greensock/easepack.js"></script>
+        <script src="libs/greensock/tweenmax.min.js"></script>
+        <script src="libs/howler.min.js"></script>
+        <script src="libs/bowser/bowser.min.js"></script>
+        <script src="libs/poly2tri.min.js"></script>
+        <script src="libs/md5.min.js"></script>
+        <script src="libs/jquery-3.2.1.min.js"></script>
+        <script src="libs/screenfull.min.js"></script>
+        <script src="libs/p3.min.js"></script>
+        <script src="bin/bundle.min.js"></script>
+        <script src="scripts/game_html_headScripts.js"></script>
+        <script>
+          (function() {
+            var isFileProtocol = 'file:' === document.location.protocol;
+            if (isFileProtocol) {
+              window.runISL = function() {
+                if (window.gameStart && typeof window.gameStart === 'function') {
+                  window.gameStart();
+                }
+              }
+            } else {
+              var isl = document.createElement('script');
+              isl.type = 'text/javascript';
+              isl.src = 'isl.js';
+
+              var node = document.getElementsByTagName('script')[0];
+              node.parentNode.insertBefore(isl, node);
+            }
+          })();
+        </script>
+    </head>
+    <body>
+        <script>
+            window.og = {};
+            window.og.gameDir  = "";
+            window.og.language = "en";
+            window.og.mode     = "game";
+
+            var main = new Main(1024, 768, window.og.language);
+            main.init();
+
+            window.screenfull = window.screenfull || {};
+            window.screenfull.request = function noop () {};
+        </script>
+        <!-- <script src="/games/shared/payment-check.js"></script> -->
+    </body>
+</html>
+

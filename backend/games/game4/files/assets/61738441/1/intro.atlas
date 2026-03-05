@@ -1,0 +1,97 @@
+
+intro.png
+size: 1749,690
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2_panel_1
+  rotate: true
+  xy: 2, 286
+  size: 402, 237
+  orig: 402, 237
+  offset: 0, 0
+  index: -1
+2_panel_2
+  rotate: true
+  xy: 241, 286
+  size: 402, 237
+  orig: 402, 237
+  offset: 0, 0
+  index: -1
+2_panel_3
+  rotate: false
+  xy: 777, 553
+  size: 933, 135
+  orig: 933, 135
+  offset: 0, 0
+  index: -1
+2_panel_4
+  rotate: false
+  xy: 960, 323
+  size: 749, 228
+  orig: 749, 228
+  offset: 0, 0
+  index: -1
+panel_1
+  rotate: false
+  xy: 2, 17
+  size: 902, 267
+  orig: 902, 267
+  offset: 0, 0
+  index: -1
+panel_2
+  rotate: false
+  xy: 602, 372
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+panel_3
+  rotate: false
+  xy: 906, 2
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+panel_4
+  rotate: false
+  xy: 1081, 5
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+panel_5
+  rotate: false
+  xy: 1256, 5
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+panel_6
+  rotate: true
+  xy: 1431, 148
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+speech_bubble
+  rotate: true
+  xy: 480, 318
+  size: 370, 120
+  orig: 370, 120
+  offset: 0, 0
+  index: -1
+speech_bubble_2
+  rotate: false
+  xy: 1431, 26
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+speech_bubble_3
+  rotate: true
+  xy: 777, 320
+  size: 231, 181
+  orig: 231, 181
+  offset: 0, 0
+  index: -1

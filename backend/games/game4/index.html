@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=11"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="DCSHG Hydra"/>
+    <meta name="Description" content="DCSHG Hydra"/>
+    <link rel="icon" sizes="192x192" href="icons/icon-192x192.png"/>
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png"/>
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="black"/>
+    <style></style>
+    <title>Bumblebee Robot Rescue</title>
+</head>
+<div id="local-game-holder" style="height: 100%; width 100%; margin: 0 auto;" bgcolor="#9ed7ed">
+<body style="background-image: none;" bgcolor="#000000">
+    <!-- <script src="/games/shared/payment-check.js"></script> -->
+</body>
+
+<script src="require.js"></script>
+<script>
+    (function(){
+        requirejs.config({
+            paths: {
+                "Game": "main"
+            }
+        });
+        require(["Game"], function() {});
+    })();
+</script>
+</html>

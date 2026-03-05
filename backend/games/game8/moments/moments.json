@@ -1,0 +1,149 @@
+{
+    "moments" : [
+        [
+			{ "sub":"tripleLeft", "staggered":false},
+			{ "sub":"tripleDrip", "staggered":true},
+			{},
+			{ "sub":"near_four_cc", "staggered":false},
+			{},
+			{ "sub":"far_four_hover_fire", "staggered":true},			
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{ "sub":"near_four_cc", "staggered":true},
+			{},
+			{},
+			{},			
+			{ "sub":"bline_swordZone1_three", "staggered":false},
+			{ "sub":"bline_swordZone3_three", "staggered":false},
+			{},
+			
+			{ "sub":"mid_nine_hover_fire", "staggered":true},
+			{},
+			{},
+			{},
+			{ "sub":"tripleRight", "staggered":false},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{ "sub":"far_three_cw_fire", "staggered":true},
+			{},
+			{},
+			{},
+			{},
+			{ "sub":"bline_swordZone2_three", "staggered":false},
+			{ "sub":"bline_swordZone4_three", "staggered":false},
+			{},
+			{},
+			{},
+			{}
+		]
+    ],
+    "subMoments": {
+        "near_four_cc": [
+            { "type":"cc", "angle":0, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":90, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":180, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":270, "speed":20, "dist":160, "firerate":-1 }
+		
+        ],
+        "near_four_cc": [
+            { "type":"cc", "angle":0, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":90, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":180, "speed":20, "dist":160, "firerate":-1 },
+            { "type":"cc", "angle":270, "speed":20, "dist":160, "firerate":-1 }
+		
+        ],
+		"mid_three_cc_fire": [
+            { "type":"cc", "angle":360, "speed":20, "dist":280, "firerate":2 },
+            { "type":"cc", "angle":120, "speed":20, "dist":280, "firerate":2 },
+            { "type":"cc", "angle":240, "speed":20, "dist":280, "firerate":2 }
+		
+        ],
+        "mid_nine_hover_fire": [
+            { "type":"hover", "angle":0, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":40, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":80, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":120, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":160, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":200, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":240, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":280, "speed":20, "dist":280, "firerate":5 },
+            { "type":"hover", "angle":320, "speed":20, "dist":280, "firerate":5 }
+        ],
+        "far_four_hover_fire": [
+            { "type":"hover", "angle":40, "speed":20, "dist":350, "firerate":7 },
+            { "type":"hover", "angle":120, "speed":20, "dist":350, "firerate":7 },
+            { "type":"hover", "angle":240, "speed":20, "dist":350, "firerate":7 },
+            { "type":"hover", "angle":320, "speed":20, "dist":350, "firerate":7 }
+        ], 
+		"far_three_cw_fire": [
+            { "type":"cw", "angle":0, "speed":15, "dist":350, "firerate":9 },
+            { "type":"cw", "angle":120, "speed":15, "dist":350, "firerate":9 },
+            { "type":"cw", "angle":240, "speed":15, "dist":350, "firerate":9 }
+        ],
+        "bline_four": [
+            { "type":"bline", "angle":0, "speed":15, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":90, "speed":15, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":180, "speed":15, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":270, "speed":15, "dist":0, "firerate":-1 }
+        ],
+		"tripleLeft": [
+            { "type":"bline", "angle":250, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":270, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":290, "speed":20, "dist":0, "firerate":-1 }
+        ],
+		"tripleRight": [
+            { "type":"bline", "angle":70, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":90, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":110, "speed":20, "dist":0, "firerate":-1 }
+        ],
+        "bline_swordZone1_three": [
+            { "type":"bline", "angle":22.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":45, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":67.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":90, "speed":20, "dist":0, "firerate":-1 }
+        ],	
+        "bline_swordZone2_three": [
+            { "type":"bline", "angle":112.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":135, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":157.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":180, "speed":20, "dist":0, "firerate":-1 }
+        ],	
+        "bline_swordZone3_three": [
+            { "type":"bline", "angle":202.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":225, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":247.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":270, "speed":20, "dist":0, "firerate":-1 }
+        ],	
+        "bline_swordZone4_three": [
+            { "type":"bline", "angle":292.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":315, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":337.5, "speed":20, "dist":0, "firerate":-1 },
+            { "type":"bline", "angle":360, "speed":20, "dist":0, "firerate":-1 }
+        ],			
+		"tripleDrip": [
+		    { "type":"cw", "angle":0, "speed":20, "dist":160, "firerate":-1 },
+			{},
+			{},
+			{},
+            { "type":"cw", "angle":0, "speed":20, "dist":160, "firerate":-1 },
+			{},
+			{},
+			{},
+            { "type":"cw", "angle":0, "speed":20, "dist":160, "firerate":-1 },
+			{},
+			{},
+			{}
+			]
+    }   
+}

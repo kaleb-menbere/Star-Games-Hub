@@ -1,0 +1,111 @@
+{
+  "frames": {
+    "bg1": {
+      "frame": {
+        "x": 6,
+        "y": 6,
+        "w": 852,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 852,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 852,
+        "h": 1400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bgshop": {
+      "frame": {
+        "x": 6,
+        "y": 1418,
+        "w": 852,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 852,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 852,
+        "h": 1400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "CNfigurehint": {
+      "frame": {
+        "x": 6,
+        "y": 2830,
+        "w": 616,
+        "h": 328
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 616,
+        "h": 328
+      },
+      "sourceSize": {
+        "w": 616,
+        "h": 328
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bgtitle": {
+      "frame": {
+        "x": 870,
+        "y": 6,
+        "w": 852,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 852,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 852,
+        "h": 1400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "https://github.com/odrick/gulp-free-tex-packer",
+    "version": "0.5.2",
+    "image": "foxjpg_2x.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 4096
+    },
+    "scale": 1
+  }
+}

@@ -1,0 +1,172 @@
+{"frames": [
+
+{
+	"filename": "onion_dance0001.png",
+	"frame": {"x":2,"y":2,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0002.png",
+	"frame": {"x":200,"y":2,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0003.png",
+	"frame": {"x":398,"y":2,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0004.png",
+	"frame": {"x":596,"y":2,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0005.png",
+	"frame": {"x":794,"y":2,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0006.png",
+	"frame": {"x":2,"y":437,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0007.png",
+	"frame": {"x":200,"y":437,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0008.png",
+	"frame": {"x":398,"y":437,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0009.png",
+	"frame": {"x":596,"y":437,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0010.png",
+	"frame": {"x":794,"y":437,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0011.png",
+	"frame": {"x":2,"y":872,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0012.png",
+	"frame": {"x":200,"y":872,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0013.png",
+	"frame": {"x":398,"y":872,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0014.png",
+	"frame": {"x":596,"y":872,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0015.png",
+	"frame": {"x":794,"y":872,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0016.png",
+	"frame": {"x":2,"y":1307,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0017.png",
+	"frame": {"x":200,"y":1307,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0018.png",
+	"frame": {"x":398,"y":1307,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0019.png",
+	"frame": {"x":596,"y":1307,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+},
+{
+	"filename": "onion_dance0020.png",
+	"frame": {"x":794,"y":1307,"w":196,"h":433},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":433},
+	"sourceSize": {"w":196,"h":433}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_end_onion.png",
+	"format": "RGBA8888",
+	"size": {"w":992,"h":1742},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ca890b028bcb0301589b7e9d1e613ba5:3971431539648bb8b09fef2543b34570:264c49b082022a31f036e27dad06b650$"
+}
+}

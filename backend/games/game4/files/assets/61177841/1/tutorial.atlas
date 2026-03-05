@@ -1,0 +1,41 @@
+
+tutorial.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+analogue_stick
+  rotate: true
+  xy: 485, 111
+  size: 117, 100
+  orig: 117, 100
+  offset: 0, 0
+  index: -1
+analogue_stick_base
+  rotate: true
+  xy: 327, 52
+  size: 176, 156
+  orig: 176, 156
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: false
+  xy: 327, 10
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+keys
+  rotate: false
+  xy: 2, 2
+  size: 323, 226
+  orig: 323, 226
+  offset: 0, 0
+  index: -1
+keys hilight
+  rotate: false
+  xy: 485, 5
+  size: 104, 104
+  orig: 106, 106
+  offset: 1, 1
+  index: -1

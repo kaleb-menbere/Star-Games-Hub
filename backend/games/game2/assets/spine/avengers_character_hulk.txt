@@ -1,0 +1,160 @@
+
+avengers_character_hulk.png
+size: 955,279
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hulk/arm_l
+  rotate: true
+  xy: 764, 201
+  size: 76, 125
+  orig: 76, 125
+  offset: 0, 0
+  index: -1
+hulk/arm_r
+  rotate: true
+  xy: 764, 123
+  size: 76, 125
+  orig: 76, 125
+  offset: 0, 0
+  index: -1
+hulk/belt
+  rotate: true
+  xy: 436, 78
+  size: 76, 16
+  orig: 76, 16
+  offset: 0, 0
+  index: -1
+hulk/elbow_l
+  rotate: true
+  xy: 569, 8
+  size: 70, 102
+  orig: 70, 104
+  offset: 0, 0
+  index: -1
+hulk/elbow_r
+  rotate: true
+  xy: 569, 8
+  size: 70, 102
+  orig: 70, 104
+  offset: 0, 0
+  index: -1
+hulk/foot_l
+  rotate: true
+  xy: 624, 80
+  size: 92, 54
+  orig: 92, 54
+  offset: 0, 0
+  index: -1
+hulk/foot_r
+  rotate: true
+  xy: 624, 80
+  size: 92, 54
+  orig: 92, 54
+  offset: 0, 0
+  index: -1
+hulk/hand_l2
+  rotate: false
+  xy: 891, 210
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+hulk/hand_r1
+  rotate: false
+  xy: 891, 127
+  size: 60, 81
+  orig: 60, 81
+  offset: 0, 0
+  index: -1
+hulk/head1
+  rotate: true
+  xy: 778, 54
+  size: 67, 97
+  orig: 67, 97
+  offset: 0, 0
+  index: -1
+hulk/shin_l
+  rotate: true
+  xy: 278, 83
+  size: 71, 156
+  orig: 71, 156
+  offset: 0, 0
+  index: -1
+hulk/shin_r
+  rotate: true
+  xy: 278, 10
+  size: 71, 156
+  orig: 71, 156
+  offset: 0, 0
+  index: -1
+hulk/thigh_l
+  rotate: false
+  xy: 682, 111
+  size: 80, 166
+  orig: 80, 166
+  offset: 0, 0
+  index: -1
+hulk/thigh_r
+  rotate: true
+  xy: 456, 92
+  size: 80, 166
+  orig: 80, 166
+  offset: 0, 0
+  index: -1
+hulk/torso
+  rotate: true
+  xy: 278, 156
+  size: 121, 176
+  orig: 122, 176
+  offset: 1, 0
+  index: -1
+hulk/torso_overlay
+  rotate: true
+  xy: 537, 2
+  size: 88, 30
+  orig: 88, 30
+  offset: 0, 0
+  index: -1
+vfx/die_circle
+  rotate: false
+  xy: 2, 3
+  size: 274, 274
+  orig: 274, 274
+  offset: 0, 0
+  index: -1
+vfx/vfx_blast_circle
+  rotate: false
+  xy: 454, 10
+  size: 81, 80
+  orig: 97, 98
+  offset: 8, 10
+  index: -1
+vfx/vfx_blast_ray
+  rotate: false
+  xy: 456, 174
+  size: 224, 103
+  orig: 224, 103
+  offset: 0, 0
+  index: -1
+vfx/vfx_hit
+  rotate: false
+  xy: 877, 55
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+vfx/vfx_kick
+  rotate: true
+  xy: 778, 2
+  size: 50, 91
+  orig: 50, 115
+  offset: 0, 18
+  index: -1
+vfx/vfx_lightning
+  rotate: false
+  xy: 680, 13
+  size: 96, 96
+  orig: 103, 100
+  offset: 2, 1
+  index: -1

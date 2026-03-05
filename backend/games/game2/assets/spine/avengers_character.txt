@@ -1,0 +1,783 @@
+
+avengers_character.png
+size: 1761,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+black_panther/arm_l
+  rotate: false
+  xy: 684, 108
+  size: 46, 84
+  orig: 46, 84
+  offset: 0, 0
+  index: -1
+black_panther/arm_r
+  rotate: false
+  xy: 684, 108
+  size: 46, 84
+  orig: 46, 84
+  offset: 0, 0
+  index: -1
+black_panther/belt
+  rotate: false
+  xy: 1370, 2
+  size: 50, 21
+  orig: 50, 21
+  offset: 0, 0
+  index: -1
+black_panther/elbow_l
+  rotate: false
+  xy: 1408, 141
+  size: 36, 68
+  orig: 36, 68
+  offset: 0, 0
+  index: -1
+black_panther/elbow_r
+  rotate: false
+  xy: 1408, 141
+  size: 36, 68
+  orig: 36, 68
+  offset: 0, 0
+  index: -1
+black_panther/foot_l
+  rotate: false
+  xy: 1590, 83
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+black_panther/foot_r
+  rotate: false
+  xy: 1590, 83
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+black_panther/hand_l1
+  rotate: true
+  xy: 1648, 145
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+black_panther/hand_r1
+  rotate: true
+  xy: 1648, 145
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+black_panther/head1
+  rotate: false
+  xy: 583, 101
+  size: 56, 80
+  orig: 56, 80
+  offset: 0, 0
+  index: -1
+black_panther/shin_l
+  rotate: false
+  xy: 1356, 210
+  size: 41, 115
+  orig: 41, 115
+  offset: 0, 0
+  index: -1
+black_panther/shin_r
+  rotate: false
+  xy: 1356, 210
+  size: 41, 115
+  orig: 41, 115
+  offset: 0, 0
+  index: -1
+black_panther/thigh_l
+  rotate: false
+  xy: 1090, 198
+  size: 53, 127
+  orig: 53, 127
+  offset: 0, 0
+  index: -1
+black_panther/thigh_r
+  rotate: false
+  xy: 1145, 198
+  size: 53, 127
+  orig: 53, 127
+  offset: 0, 0
+  index: -1
+black_panther/torso
+  rotate: false
+  xy: 814, 195
+  size: 73, 130
+  orig: 73, 130
+  offset: 0, 0
+  index: -1
+captain_america/arm_l
+  rotate: false
+  xy: 732, 110
+  size: 44, 82
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+captain_america/arm_r
+  rotate: false
+  xy: 778, 110
+  size: 44, 82
+  orig: 44, 82
+  offset: 0, 0
+  index: -1
+captain_america/belt
+  rotate: false
+  xy: 1535, 2
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+captain_america/elbow_l
+  rotate: false
+  xy: 1330, 140
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+captain_america/elbow_r
+  rotate: false
+  xy: 1369, 140
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+captain_america/foot_l
+  rotate: false
+  xy: 1700, 195
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+captain_america/foot_r
+  rotate: false
+  xy: 1697, 108
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+captain_america/hand_l1
+  rotate: false
+  xy: 1629, 38
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+captain_america/hand_r1
+  rotate: false
+  xy: 1664, 41
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+captain_america/head1
+  rotate: true
+  xy: 1590, 123
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+captain_america/shield
+  rotate: false
+  xy: 681, 194
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+captain_america/shin_l
+  rotate: true
+  xy: 356, 2
+  size: 47, 112
+  orig: 47, 112
+  offset: 0, 0
+  index: -1
+captain_america/shin_r
+  rotate: false
+  xy: 1451, 213
+  size: 47, 112
+  orig: 47, 112
+  offset: 0, 0
+  index: -1
+captain_america/thigh_l
+  rotate: false
+  xy: 1300, 210
+  size: 54, 115
+  orig: 54, 115
+  offset: 0, 0
+  index: -1
+captain_america/thigh_r
+  rotate: false
+  xy: 1291, 21
+  size: 54, 115
+  orig: 54, 115
+  offset: 0, 0
+  index: -1
+captain_america/torso
+  rotate: true
+  xy: 869, 115
+  size: 78, 128
+  orig: 78, 129
+  offset: 0, 1
+  index: -1
+falcon/arm_l
+  rotate: false
+  xy: 999, 116
+  size: 39, 78
+  orig: 39, 78
+  offset: 0, 0
+  index: -1
+falcon/arm_r
+  rotate: false
+  xy: 1040, 118
+  size: 39, 78
+  orig: 39, 78
+  offset: 0, 0
+  index: -1
+falcon/belt
+  rotate: true
+  xy: 428, 52
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+falcon/elbow_l
+  rotate: false
+  xy: 1235, 129
+  size: 36, 70
+  orig: 36, 70
+  offset: 0, 0
+  index: -1
+falcon/elbow_r
+  rotate: false
+  xy: 1235, 129
+  size: 36, 70
+  orig: 36, 70
+  offset: 0, 0
+  index: -1
+falcon/foot_l
+  rotate: false
+  xy: 1700, 243
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+falcon/foot_r
+  rotate: false
+  xy: 1700, 243
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+falcon/hand_l1
+  rotate: false
+  xy: 395, 51
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+falcon/hand_r1
+  rotate: false
+  xy: 395, 51
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+falcon/head1
+  rotate: false
+  xy: 1648, 217
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+falcon/shin_l
+  rotate: true
+  xy: 233, 2
+  size: 47, 121
+  orig: 47, 121
+  offset: 0, 0
+  index: -1
+falcon/shin_r
+  rotate: true
+  xy: 233, 2
+  size: 47, 121
+  orig: 47, 121
+  offset: 0, 0
+  index: -1
+falcon/thigh_l
+  rotate: false
+  xy: 1239, 11
+  size: 50, 116
+  orig: 50, 116
+  offset: 0, 0
+  index: -1
+falcon/thigh_r
+  rotate: false
+  xy: 1399, 211
+  size: 50, 114
+  orig: 50, 115
+  offset: 0, 1
+  index: -1
+falcon/torso
+  rotate: false
+  xy: 1019, 198
+  size: 69, 127
+  orig: 69, 127
+  offset: 0, 0
+  index: -1
+falcon/wing
+  rotate: true
+  xy: 810, 2
+  size: 106, 327
+  orig: 106, 327
+  offset: 0, 0
+  index: -1
+hawk_eye/arm_l
+  rotate: false
+  xy: 641, 103
+  size: 41, 85
+  orig: 41, 85
+  offset: 0, 0
+  index: -1
+hawk_eye/arm_r
+  rotate: false
+  xy: 665, 16
+  size: 41, 85
+  orig: 41, 85
+  offset: 0, 0
+  index: -1
+hawk_eye/arrow
+  rotate: true
+  xy: 2, 5
+  size: 13, 108
+  orig: 13, 108
+  offset: 0, 0
+  index: -1
+hawk_eye/bag
+  rotate: false
+  xy: 1347, 23
+  size: 21, 115
+  orig: 21, 115
+  offset: 0, 0
+  index: -1
+hawk_eye/belt
+  rotate: false
+  xy: 1590, 244
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+hawk_eye/bow1
+  rotate: false
+  xy: 1257, 208
+  size: 41, 117
+  orig: 41, 117
+  offset: 0, 0
+  index: -1
+hawk_eye/bow2
+  rotate: false
+  xy: 1196, 4
+  size: 41, 120
+  orig: 41, 120
+  offset: 0, 0
+  index: -1
+hawk_eye/elbow_l
+  rotate: true
+  xy: 1697, 156
+  size: 37, 61
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+hawk_eye/elbow_r
+  rotate: true
+  xy: 1697, 156
+  size: 37, 61
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+hawk_eye/foot_l
+  rotate: false
+  xy: 1700, 284
+  size: 59, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+hawk_eye/foot_r
+  rotate: false
+  xy: 1700, 284
+  size: 59, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+hawk_eye/hand_l1
+  rotate: true
+  xy: 1595, 171
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+hawk_eye/hand_r1
+  rotate: true
+  xy: 1595, 171
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+hawk_eye/head1
+  rotate: false
+  xy: 1273, 138
+  size: 55, 68
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+hawk_eye/shin_l
+  rotate: true
+  xy: 1590, 280
+  size: 45, 108
+  orig: 45, 108
+  offset: 0, 0
+  index: -1
+hawk_eye/shin_r
+  rotate: true
+  xy: 1590, 280
+  size: 45, 108
+  orig: 45, 108
+  offset: 0, 0
+  index: -1
+hawk_eye/thigh_l
+  rotate: false
+  xy: 1200, 201
+  size: 55, 124
+  orig: 55, 124
+  offset: 0, 0
+  index: -1
+hawk_eye/thigh_r
+  rotate: false
+  xy: 1139, 2
+  size: 55, 118
+  orig: 55, 124
+  offset: 0, 6
+  index: -1
+hawk_eye/torso
+  rotate: false
+  xy: 943, 196
+  size: 74, 129
+  orig: 74, 129
+  offset: 0, 0
+  index: -1
+iron_man/arm_l
+  rotate: false
+  xy: 824, 112
+  size: 43, 81
+  orig: 43, 81
+  offset: 0, 0
+  index: -1
+iron_man/arm_r
+  rotate: false
+  xy: 824, 112
+  size: 43, 81
+  orig: 43, 81
+  offset: 0, 0
+  index: -1
+iron_man/belt
+  rotate: true
+  xy: 1648, 86
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+iron_man/elbow_l
+  rotate: false
+  xy: 1553, 175
+  size: 40, 66
+  orig: 40, 66
+  offset: 0, 0
+  index: -1
+iron_man/elbow_r
+  rotate: false
+  xy: 1553, 175
+  size: 40, 66
+  orig: 40, 66
+  offset: 0, 0
+  index: -1
+iron_man/foot_l
+  rotate: true
+  xy: 1699, 41
+  size: 65, 39
+  orig: 65, 39
+  offset: 0, 0
+  index: -1
+iron_man/foot_r
+  rotate: true
+  xy: 1699, 41
+  size: 65, 39
+  orig: 65, 39
+  offset: 0, 0
+  index: -1
+iron_man/hand_l1
+  rotate: true
+  xy: 1648, 177
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+iron_man/hand_r1
+  rotate: true
+  xy: 1648, 177
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+iron_man/head1
+  rotate: false
+  xy: 1182, 126
+  size: 51, 70
+  orig: 51, 70
+  offset: 0, 0
+  index: -1
+iron_man/shin_l
+  rotate: false
+  xy: 889, 195
+  size: 52, 130
+  orig: 52, 130
+  offset: 0, 0
+  index: -1
+iron_man/shin_r
+  rotate: false
+  xy: 889, 195
+  size: 52, 130
+  orig: 52, 130
+  offset: 0, 0
+  index: -1
+iron_man/thigh_l
+  rotate: false
+  xy: 1480, 30
+  size: 53, 110
+  orig: 57, 120
+  offset: 4, 0
+  index: -1
+iron_man/thigh_r
+  rotate: false
+  xy: 1480, 30
+  size: 53, 110
+  orig: 57, 120
+  offset: 4, 0
+  index: -1
+iron_man/torso
+  rotate: false
+  xy: 500, 183
+  size: 103, 142
+  orig: 103, 144
+  offset: 0, 2
+  index: -1
+thor/arm_l
+  rotate: false
+  xy: 1137, 122
+  size: 43, 74
+  orig: 43, 74
+  offset: 0, 0
+  index: -1
+thor/arm_r
+  rotate: false
+  xy: 620, 12
+  size: 43, 87
+  orig: 43, 87
+  offset: 0, 0
+  index: -1
+thor/belt
+  rotate: true
+  xy: 1553, 270
+  size: 55, 35
+  orig: 55, 35
+  offset: 0, 0
+  index: -1
+thor/cape
+  rotate: false
+  xy: 2, 20
+  size: 38, 305
+  orig: 38, 305
+  offset: 0, 0
+  index: -1
+thor/cape_top
+  rotate: false
+  xy: 1590, 4
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+thor/elbow_l
+  rotate: false
+  xy: 1446, 142
+  size: 37, 67
+  orig: 37, 67
+  offset: 0, 0
+  index: -1
+thor/elbow_r
+  rotate: false
+  xy: 1446, 142
+  size: 37, 67
+  orig: 37, 67
+  offset: 0, 0
+  index: -1
+thor/foot_l
+  rotate: false
+  xy: 1595, 206
+  size: 51, 36
+  orig: 51, 36
+  offset: 0, 0
+  index: -1
+thor/foot_r
+  rotate: false
+  xy: 1595, 206
+  size: 51, 36
+  orig: 51, 36
+  offset: 0, 0
+  index: -1
+thor/hammer
+  rotate: false
+  xy: 1370, 25
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: -1
+thor/hand_l1
+  rotate: true
+  xy: 1625, 5
+  size: 29, 42
+  orig: 29, 42
+  offset: 0, 0
+  index: -1
+thor/hand_r1
+  rotate: true
+  xy: 1625, 5
+  size: 29, 42
+  orig: 29, 42
+  offset: 0, 0
+  index: -1
+thor/hand_r2
+  rotate: false
+  xy: 1425, 26
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: -1
+thor/head1
+  rotate: false
+  xy: 1081, 121
+  size: 54, 75
+  orig: 54, 75
+  offset: 0, 0
+  index: -1
+thor/shin_l
+  rotate: true
+  xy: 112, 2
+  size: 44, 119
+  orig: 44, 119
+  offset: 0, 0
+  index: -1
+thor/shin_r
+  rotate: true
+  xy: 112, 2
+  size: 44, 119
+  orig: 44, 119
+  offset: 0, 0
+  index: -1
+thor/shoulder_top
+  rotate: false
+  xy: 42, 21
+  size: 39, 25
+  orig: 39, 25
+  offset: 0, 0
+  index: -1
+thor/thigh_l
+  rotate: false
+  xy: 1500, 215
+  size: 51, 110
+  orig: 51, 110
+  offset: 0, 0
+  index: -1
+thor/thigh_r
+  rotate: false
+  xy: 1535, 33
+  size: 51, 110
+  orig: 51, 110
+  offset: 0, 0
+  index: -1
+thor/torso
+  rotate: false
+  xy: 605, 190
+  size: 74, 135
+  orig: 74, 135
+  offset: 0, 0
+  index: -1
+transparent
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+vfx/die_circle
+  rotate: false
+  xy: 119, 51
+  size: 274, 274
+  orig: 274, 274
+  offset: 0, 0
+  index: -1
+vfx/die_taser
+  rotate: true
+  xy: 42, 48
+  size: 277, 75
+  orig: 277, 75
+  offset: 0, 0
+  index: -1
+vfx/vfx_blast_circle
+  rotate: false
+  xy: 500, 101
+  size: 81, 80
+  orig: 97, 98
+  offset: 8, 10
+  index: -1
+vfx/vfx_blast_ray
+  rotate: true
+  xy: 395, 101
+  size: 224, 103
+  orig: 224, 103
+  offset: 0, 0
+  index: -1
+vfx/vfx_blue_blast
+  rotate: false
+  xy: 708, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+vfx/vfx_hit
+  rotate: false
+  xy: 1485, 145
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+vfx/vfx_kick
+  rotate: false
+  xy: 568, 8
+  size: 50, 91
+  orig: 50, 115
+  offset: 0, 18
+  index: -1
+vfx/vfx_lightning
+  rotate: false
+  xy: 470, 3
+  size: 96, 96
+  orig: 103, 100
+  offset: 2, 1
+  index: -1
+vfx/vfx_sparks
+  rotate: false
+  xy: 1588, 36
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1

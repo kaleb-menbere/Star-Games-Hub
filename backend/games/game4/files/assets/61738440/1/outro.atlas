@@ -1,0 +1,48 @@
+
+outro.png
+size: 1752,896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_1
+  rotate: false
+  xy: 906, 42
+  size: 356, 389
+  orig: 357, 389
+  offset: 1, 0
+  index: -1
+circle_2
+  rotate: false
+  xy: 1264, 130
+  size: 301, 301
+  orig: 301, 301
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 2, 271
+  size: 623, 623
+  orig: 681, 681
+  offset: 29, 29
+  index: -1
+outro_panel_1
+  rotate: false
+  xy: 2, 2
+  size: 902, 267
+  orig: 902, 267
+  offset: 0, 0
+  index: -1
+outro_panel_2
+  rotate: false
+  xy: 627, 433
+  size: 902, 461
+  orig: 902, 493
+  offset: 0, 0
+  index: -1
+speech_bubble_outro
+  rotate: true
+  xy: 1531, 539
+  size: 355, 219
+  orig: 355, 219
+  offset: 0, 0
+  index: -1

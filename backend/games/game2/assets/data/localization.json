@@ -1,0 +1,541 @@
+{
+    "languages":
+    {   
+        "en" :
+        {
+            "r2l"      : false,
+            "webfont"  : false
+        }
+    },    
+	"DAILY_BONUS":
+	{
+		"en": "Daily Bonus"
+	},
+	"DAILY_BONUS_DESC":
+	{
+		"en": "Click on a token for a reward!"
+	},
+	"REWARD":
+	{
+		"en": "Reward"
+	},
+	"SURPRISE":
+	{
+		"en": "Surprise!"
+	},
+	"REWARD_MESSAGE":
+	{
+		"en": "You won\n{value} tokens!"
+	},
+	"STORY":
+	{
+		"en": "Story"
+	},
+	"ENDLESS":
+	{
+		"en": "Endless"
+	},
+	"ENTER_CODE":
+	{
+		"en": "Enter Code"
+	},
+	"SORRY":
+	{
+		"en": "Sorry"
+	},
+	"CODE_WRONG":
+	{
+		"en": "The code is wrong\nPlease try again"
+	},
+	"CODE_USED":
+	{
+		"en": "The code has already \nbeen redeemed"
+	},
+	"HELP":
+	{
+		"en": "Help"
+	},
+	"PAUSE":
+	{
+		"en": "Pause"
+	},
+	"PAUSE_EXIT":
+	{
+		"en": "Are you sure you want to \nreturn to the main menu?"
+	},
+	"PAUSE_RESTART":
+	{
+		"en": "Are you sure you want to \nrestart the level?"
+	},
+	"HELP_MAIN_0":
+	{
+		"en": "Play story mode and collect memory\nsticks to crack Hydra's network"
+	},
+	"HELP_MAIN_1":
+	{
+		"en": "Play endless mode to see how\nfar you can get"
+	},
+	"HELP_MAIN_2":
+	{
+		"en": "Get a high-score and try to beat it \neach time you play"
+	},
+	"HELP_GOALS_0":
+	{
+		"en": "Check your progress on goals.\nFinishing goals earns you extra tokens"
+	},
+	"HELP_CHARACTER_0":
+	{
+		"en": "Select a character to play with"
+	},
+	"HELP_CHARACTER_1":
+	{
+		"en": "Upgrade your character to make them \nfaster and stronger"
+	},
+	"HELP_CHARACTER_2":
+	{
+		"en": "Tumble Speed will help you to spin faster \nin-air when tumbling"
+	},
+	"HELP_CHARACTER_3":
+	{
+		"en": "Token Magnet will help you to attract \nmore tokens"
+	},
+	"HELP_CHARACTER_4":
+	{
+		"en": "Each character has a different ability. \nBe sure to try them all out!"
+	},
+	"HELP_MAP_0":
+	{
+		"en": "This map will show you the way to the \nHydra's secret bases"
+	},
+	"HELP_MAP_1":
+	{
+		"en": "Unlock additional characters as you\nprogress through the levels"
+	},
+	"HELP_MAP_2":
+	{
+		"en": "Collecting all the memory sticks in all \nthe levels will crack the Hydra's network"
+	},
+	"HELP_GENERIC_0_PC":
+	{
+		"en": "Press up key to jump"
+	},
+	"HELP_GENERIC_0_MOB":
+	{
+		"en": "Tap to jump"
+	},
+	"HELP_GENERIC_1_PC":
+	{
+		"en": "Hold up key to tumble-jump"
+	},
+	"HELP_GENERIC_1_MOB":
+	{
+		"en": "Tap and hold to tumble-jump"
+	},
+	"HELP_GENERIC_2_PC":
+	{
+		"en": "Press X key to attack enemies"
+	},
+	"HELP_GENERIC_2_MOB":
+	{
+		"en": "Tap to attack enemies"
+	},
+	"HELP_GENERIC_3_PC":
+	{
+		"en": "Press C key to use special ability"
+	},
+	"HELP_GENERIC_3_MOB":
+	{
+		"en": "Tap to use special ability"
+	},
+	"HELP_GENERIC_4":
+	{
+		"en": "Collect tokens to upgrade\nyour characters"
+	},
+	"HELP_GENERIC_5":
+	{
+		"en": "Collect memory sticks to crack\nHydra's network"
+	},
+	"HELP_ENDLESS_0":
+	{
+		"en": "This shows how far you have travelled"
+	},
+	"HELP_ENDLESS_1":
+	{
+		"en": "This will show you your personal best"
+	},
+	"ARE_YOU_SURE":
+	{
+		"en": "Are you sure?"
+	},
+	"NOT_ENOUGH_COINS":
+	{
+		"en": "Insufficient funds"
+	},
+	"QUIT":
+	{
+		"en": "Are you sure you want to quit?"
+	},
+	"LOCKED":
+	{
+		"en": "Locked"
+	},
+	"UNLOCKED":
+	{
+		"en": "Unlocked"
+	},
+	"ENDLESS_LOCKED":
+	{
+		"en": "Please finish {value} levels \nof Story to unlock \nEndless Mode"
+	},
+	"ENDLESS_UNLOCKED":
+	{
+		"en": "Endless Mode Unlocked!\nGet a hi-score and try \nto beat it each time you play!"
+	},
+	"GOALS":
+	{
+		"en": "Goals"
+	},
+	"TIPS":
+	{
+		"en": "Tips"
+	},
+	"LEVEL":
+	{
+		"en": "Level {value}"
+	},
+	"WELL_DONE":
+	{
+		"en": "Well done!"
+	},
+	"NICE_TRY":
+	{
+		"en": "Nice try!"
+	},
+	"SCORE":
+	{
+		"en": "Score"
+	},
+	"HIGHSCORE":
+	{
+		"en": "Hi-Score"
+	},
+	"DISTANCE":
+	{
+		"en": "Distance"
+	},
+	"COLLECTIBLES":
+	{
+		"en": "Memory Sticks"
+	},
+	"STYLE_POINTS":
+	{
+		"en": "Style points"
+	},
+	"COINS":
+	{
+		"en": "Tokens"
+	},
+	"TOTAL":
+	{
+		"en": "Total"
+	},
+	"GOOD_JOB":
+	{
+		"en": "Good Job!"
+	},
+    "UNLOCKED_CHARACTER":
+	{
+		"en": "You've\nunlocked\n{NAME}"
+	},
+	"ENDGAME_TITLE":
+	{
+		"en": "Great job!"
+	},
+	"ENDGAME_DESCRIPTION":
+	{
+		"en": "You've\ncompleted\nall levels!"
+	},
+	"COMPLETIONIST_TITLE":
+	{
+		"en": "Incredible!"
+	},
+	"COMPLETIONIST_DESCRIPTION":
+	{
+		"en": "You found\nall the\nmemory sticks!"
+	},
+	"TUTORIAL_JUMP":
+	{
+		"en": "Jump over obstacles and pits"
+	},
+	"TUTORIAL_TUMBLE":
+	{
+		"en": "Hold down jump to tumble \nand earn points"
+	},
+	"TUTORIAL_COLLECTIBLES":
+	{
+		"en": "Collect all the memory sticks"
+	},
+	"TUTORIAL_TOKEN":
+	{
+		"en": "Collect tokens \nto upgrade your characters"
+	},
+	"TUTORIAL_SIGNS":
+	{
+		"en": "The signs will help you \nfind memory sticks"
+	},
+	"TUTORIAL_ABILITY":
+	{
+		"en": "Use your special abilities \nto defeat Hydra's henchmen"
+	},
+	"TIPS_CAPTAIN_AMERICA":
+	{
+		"en": "Captain America can bash\nthrough enemies with his shield"
+	},
+	"TIPS_IRON_MAN":
+	{
+		"en": "Iron Man can fly to avoid enemies \nand reach higher platforms"
+	},
+	"TIPS_BLACK_WIDOW":
+	{
+		"en": "Black Widow can roll to dodge\nenemies and crawl in tight passages"
+	},
+	"TIPS_THOR":
+	{
+		"en": "Thor can shock enemies and disable\nelectronic devices with the Mjolnir"
+	},
+	"TIPS_FALCON":
+	{
+		"en": "Falcon can glide for long \ndistances after a jump"
+	},
+	"TIPS_BLACK_PANTHER":
+	{
+		"en": "Black Panther can leap and \nmove through ceilings"
+	},
+	"TIPS_HAWKEYE":
+	{
+		"en": "Hawkeye can shoot arrows \nto defeat enemies and collect items"
+	},
+	"TIPS_HULK":
+	{
+		"en": "Hulk can smash through \nenemies and cages"
+	},
+	"TUMBLE_SPEED":
+	{
+		"en": "TUMBLE SPEED"
+	},
+	"TOKEN_MAGNET":
+	{
+		"en": "TOKEN MAGNET"
+	},
+	"goal_labels" :
+	{
+		"run" :
+		{
+			"en" : "Run {value}m"
+		},
+		"slide" :
+		{
+			"en" : "Slide {value}m"
+		},
+		"slide_run" :
+		{
+			"en" : "Slide {value}m in a run"
+		},
+		"jump" :
+		{
+			"en" : "Land {value} jumps"
+		},
+		"jump_run" :
+		{
+			"en" : "Land {value} jumps in a run"
+		},
+		"tumble" :
+		{
+			"en" : "Land {value} tumble-jumps"
+		},
+		"tumble_run" :
+		{
+			"en" : "Land {value} tumble-jumps in a run"
+		},
+		"tumble_double" :
+		{
+			"en" : "Land {value} double tumble-jumps"
+		},
+		"tumble_triple" :
+		{
+			"en" : "Land {value} triple tumble-jumps"
+		},
+		"coins" :
+		{
+			"en" : "Collect {value} tokens"
+		},
+		"coins_run" :
+		{
+			"en" : "Collect {value} tokens in a run"
+		},
+		"collectibles" :
+		{
+			"en" : "Collect {value} memory stick"
+		},
+		"collectibles_plural" :
+		{
+			"en" : "Collect {value} memory sticks"
+		},
+		"special" :
+		{
+			"en" : "Use a special ability once"
+		},
+		"special_plural" :
+		{
+			"en" : "Use abilities {value} times"
+		},
+		"enemy" :
+		{
+			"en" : "Defeat an enemy"
+		},
+		"enemy_plural" :
+		{
+			"en" : "Defeat {value} enemies"
+		}
+	},
+
+	"characters" :
+	{
+		"black_panther" :
+		{
+			"name" :
+			{
+				"en" : "Black Panther"
+			},
+			"description" :
+			{
+				"en" : "Wall Climb – access vertical shafts"
+			}
+		},
+		"black_widow":
+		{
+			"name" :
+			{
+				"en" : "Black Widow"
+			},
+			"description" :
+			{
+				"en" : "Tumble Dive – through trapdoors/vents to access new areas"
+			}
+		},
+		"captain_america":
+		{
+			"name" :
+			{
+				"en" : "Captain America"
+			},
+			"description" :
+			{
+				"en" : "Defensive Shield -  defence against weapons to access areas"
+			}
+		},
+		"falcon":
+		{
+			"name" :
+			{
+				"en" : "Falcon"
+			},
+			"description" :
+			{
+				"en" : "Fly and Glide – reaches places far away"
+			}
+		},
+		"hawkeye":
+		{
+			"name" :
+			{
+				"en" : "Hawkeye"
+			},
+			"description" :
+			{
+				"en" : "Shoots arrows – hit targets for collectibles"
+			}
+		},
+		"hulk":
+		{
+			"name" :
+			{
+				"en" : "Hulk"
+			},
+			"description" :
+			{
+				"en" : "Hulk Smash – breaks apart solid objects"
+			}
+		},
+		"iron_man":
+		{
+			"name" :
+			{
+				"en" : "Iron Man"
+			},
+			"description" :
+			{
+				"en" : "Super Rocket Jump – reaches high places"
+			}
+		},
+		"thor":
+		{
+			"name" :
+			{
+				"en" : "Thor"
+			},
+			"description" :
+			{
+				"en" : "Lightning Hammer – powers or shorts out electrical items"
+			}
+		}
+	},
+
+	"skills" :
+	{
+		"tumble_speed" :
+		{
+			"text"    :
+			{
+				"en" : "Tumble Speed"
+			},
+			"description" :
+			{
+				"en" : "Spin faster\nin-air"
+			}
+		},
+		"snow_magnet" :
+		{
+			"text"    :
+			{
+				"en" : "Token Magnet"
+			},
+			"description" :
+			{
+				"en" : "Attracts\nTokens"
+			}
+		}
+	},
+
+	"comms" :
+	[
+		{"image" : "promo_0.png", "url" : "https://www.forestrygames.com/", "disney": true},
+		{"image" : "promo_1.png", "url" : "https://www.forestrygames.com/", "disney": true},
+		{"image" : "promo_2.png", "url" : "https://www.forestrygames.com/", "disney": true},
+		{"image" : "promo_3.png", "url" : "https://www.forestrygames.com/", "disney": true}
+	],
+
+	"promos" :
+	[
+		{
+			"en":
+			{
+				"image"  : "promo_1.png",
+				"url"    : "https://www.forestrygames.com/",
+				"title"  : "Frozen Online",
+				"text"   : "Watch the new Frozen Nothern Lights videos at frozen.disney.co.uk",
+				"disney" : true
+			}
+		}
+	]
+}

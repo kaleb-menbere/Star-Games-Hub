@@ -1,0 +1,180 @@
+{"frames": {
+
+"base_one_alarm_0.25x.png":
+{
+	"frame": {"x":1418,"y":258,"w":80,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":80,"h":216},
+	"sourceSize": {"w":88,"h":216}
+},
+"base_one_cage_particle_00.png":
+{
+	"frame": {"x":1230,"y":2,"w":136,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":264},
+	"sourceSize": {"w":136,"h":261}
+},
+"base_one_cage_particle_01.png":
+{
+	"frame": {"x":1292,"y":268,"w":124,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":216},
+	"sourceSize": {"w":123,"h":214}
+},
+"base_one_cage_particle_02.png":
+{
+	"frame": {"x":928,"y":304,"w":216,"h":156},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":156},
+	"sourceSize": {"w":213,"h":155}
+},
+"bg_outside_layer_0.png":
+{
+	"frame": {"x":2,"y":2,"w":924,"h":384},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":924,"h":384},
+	"sourceSize": {"w":922,"h":384}
+},
+"enemy_target_corner.png":
+{
+	"frame": {"x":144,"y":388,"w":56,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":56},
+	"sourceSize": {"w":53,"h":53}
+},
+"particle_explode_smoke_00.png":
+{
+	"frame": {"x":1146,"y":304,"w":144,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":144,"h":152},
+	"sourceSize": {"w":150,"h":150}
+},
+"particle_explode_smoke_01.png":
+{
+	"frame": {"x":1368,"y":2,"w":144,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":144,"h":152},
+	"sourceSize": {"w":150,"h":150}
+},
+"particle_explode_spark_00.png":
+{
+	"frame": {"x":144,"y":446,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":12,"w":20,"h":20},
+	"sourceSize": {"w":44,"h":44}
+},
+"particle_explode_spark_01.png":
+{
+	"frame": {"x":202,"y":388,"w":44,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":44},
+	"sourceSize": {"w":44,"h":44}
+},
+"particle_explode_spark_02.png":
+{
+	"frame": {"x":184,"y":446,"w":88,"h":16},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":36,"w":88,"h":16},
+	"sourceSize": {"w":88,"h":88}
+},
+"particle_fx_fire_1.png":
+{
+	"frame": {"x":274,"y":388,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":16,"h":16},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_fx_fire_2.png":
+{
+	"frame": {"x":274,"y":440,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":16,"h":16},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_fx_fire_3.png":
+{
+	"frame": {"x":248,"y":414,"w":16,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":16,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_fx_fire_4.png":
+{
+	"frame": {"x":166,"y":446,"w":16,"h":20},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":16,"h":20},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_fx_fire_5.png":
+{
+	"frame": {"x":248,"y":388,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_fx_fire_6.png":
+{
+	"frame": {"x":266,"y":414,"w":16,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":16,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"particle_splash_dust.png":
+{
+	"frame": {"x":1368,"y":156,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"ui_endless_marker.png":
+{
+	"frame": {"x":2,"y":470,"w":500,"h":12},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":12},
+	"sourceSize": {"w":497,"h":10}
+},
+"ui_map_red_overlay_0.1x.png":
+{
+	"frame": {"x":2,"y":388,"w":140,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":80},
+	"sourceSize": {"w":137,"h":77}
+},
+"ui_rays.png":
+{
+	"frame": {"x":928,"y":2,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_hd_0_1x.png",
+	"format": "RGBA8888",
+	"size": {"w":1514,"h":486},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:bd5520d699b4e3d003e32fdd650629e7:47c3abe848cc3cc6154bd95ab1fdf089:c2ea696bc83eb951a7d11e129f929ac6$"
+}
+}

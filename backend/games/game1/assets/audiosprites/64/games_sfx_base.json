@@ -1,0 +1,74 @@
+{
+  "resources": [
+    "games_sfx_base.mp3",
+    "games_sfx_base.m4a",
+    "games_sfx_base.ogg"
+  ],
+  "spritemap": {
+    "apple_chosen": {
+      "start": 0,
+      "end": 0.72,
+      "loop": false
+    },
+    "apple_lose": {
+      "start": 2,
+      "end": 3.944013605442177,
+      "loop": false
+    },
+    "game_complete": {
+      "start": 5,
+      "end": 15.92,
+      "loop": false
+    },
+    "jump": {
+      "start": 17,
+      "end": 17.24,
+      "loop": false
+    },
+    "lose": {
+      "start": 19,
+      "end": 20.895986394557823,
+      "loop": false
+    },
+    "musical_moment": {
+      "start": 22,
+      "end": 24.495986394557825,
+      "loop": false
+    },
+    "onion_chosen": {
+      "start": 26,
+      "end": 27.2,
+      "loop": false
+    },
+    "onion_lose": {
+      "start": 29,
+      "end": 31.56800453514739,
+      "loop": false
+    },
+    "welcome": {
+      "start": 33,
+      "end": 33.74401360544218,
+      "loop": false
+    },
+    "cat_meow": {
+      "start": 35,
+      "end": 35.88,
+      "loop": false
+    },
+    "click_mouse_over": {
+      "start": 37,
+      "end": 37.23439909297052,
+      "loop": false
+    },
+    "stamp": {
+      "start": 39,
+      "end": 39.29544217687075,
+      "loop": false
+    },
+    "tyre_squeal": {
+      "start": 41,
+      "end": 42.25437641723356,
+      "loop": false
+    }
+  }
+}

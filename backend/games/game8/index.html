@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- Note: Remember to re-run `2dk build` after changing any files in the web/ directory. -->
+<html itemscope itemtype="http://schema.org/WebApplication">
+<head>
+  <meta charset="utf-8">
+  <title>Max Steel - Turbo 360</title>
+
+
+  <!-- Mobile metadata. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Blank Seven2 Project">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS metadata. -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Blank Seven2 Project">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Windows metadata. -->
+  <meta name="msapplication-tooltip" content="A short one-line description.">
+
+  
+
+  <!-- Search engine metadata. -->
+  <meta property="og:type" itemprop="applicationCategory" content="game">
+  <meta property="og:title" itemprop="name" content="Blank Seven2 Project">
+  <meta property="og:description" itemprop="description" name="description" content="A short one-line description.">
+
+
+  
+
+
+  <style>
+    #content {
+      /* The size of the game canvas. You can also set this to a fixed pixel size. */
+      width: 100%; /* 640px; */
+      height: 100%; /* 480px; */
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: black;
+      color: white;
+    }
+
+    /* A tiny animation to show during the initial load. */
+    #spinner {
+      background: url(spinner.gif);
+      position: absolute;
+      left: 50%; top: 50%;
+      width: 32px; height: 32px;
+      margin-left: -16px; margin-top: -16px;
+    }
+  </style>
+  <script src="_launch-ENb9d4e93f82ff4bffb03cda4e91262f1c.min.js"></script>
+</head>
+<body>
+
+<div id="content">
+  <!-- The game will be embedded here. -->
+  <span id="spinner"></span>
+</div>
+<script src="flambe.js"></script>
+<script>
+
+  flambe.embed(["targets/main-html.js"], "content");
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- <script src="/games/shared/payment-check.js"></script> -->
+</body>
+</html>

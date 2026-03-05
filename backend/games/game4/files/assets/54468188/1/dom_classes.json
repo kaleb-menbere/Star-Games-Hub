@@ -1,0 +1,194 @@
+{
+	"dom_button std": {
+		"tablet": {
+			"spriteWidth": 64,
+			"spriteHeight": 64,
+			"buttonWidth": 70,
+			"buttonHeight": 70
+		},
+		"mobile": {
+			"spriteWidth": 42,
+			"spriteHeight": 42,
+			"buttonWidth": 64,
+			"buttonHeight": 64
+		}
+	},
+        
+
+	"dom_button wide": {
+		"tablet": {
+			"spriteWidth": 248,
+			"spriteHeight": 64,
+			"buttonWidth": 254,
+			"buttonHeight": 70
+		},
+		"mobile": {
+			"spriteWidth": 172,
+			"spriteHeight": 42,
+			"buttonWidth": 194,
+			"buttonHeight": 64
+		}
+	},
+
+	"dom_button play": {
+		"tablet": {
+			"spriteWidth": 160,
+			"spriteHeight": 160,
+			"buttonWidth": 180,
+			"buttonHeight": 180
+		},
+		"mobile": {
+			"spriteWidth": 90,
+			"spriteHeight": 90,
+			"buttonWidth": 100,
+			"buttonHeight": 100
+		}
+	},
+
+	"dom_button resume": {
+		"tablet": {
+			"spriteWidth": 180,
+			"spriteHeight": 180,
+			"buttonWidth": 180,
+			"buttonHeight": 180
+		},
+		"mobile": {
+			"spriteWidth": 90,
+			"spriteHeight": 90,
+			"buttonWidth": 90,
+			"buttonHeight": 90
+		}
+	},
+
+	"dom_button restart": {
+		"tablet": {
+			"spriteWidth": 120,
+			"spriteHeight": 120,
+			"buttonWidth": 180,
+			"buttonHeight": 180
+		},
+		"mobile": {
+			"spriteWidth": 55,
+			"spriteHeight": 55,
+			"buttonWidth": 90,
+			"buttonHeight": 90
+		}
+	},
+
+	"dom_icon": {
+		"tablet": {
+			"spriteWidth": 70,
+			"spriteHeight": 70
+		},
+		"mobile": {
+			"spriteWidth": 64,
+			"spriteHeight": 64
+		}
+	},
+
+	"dom_panel centre": {
+		"tablet": {
+			"x": 0.5,
+			"y": 0.5
+		},
+		"mobile": {
+			"x": 0.5,
+			"y": 0.5
+		}
+	},
+
+	"dom_panel left": {
+		"tablet": {
+			"x": 0.02,
+			"offsetX": 35
+		},
+		"mobile": {
+			"x": 0.02,
+			"offsetX": 32
+		}
+	},
+
+	"dom_panel left wide": {
+		"tablet": {
+			"offsetX": 127
+		},
+		"mobile": {
+			"offsetX": 97
+		}
+	},
+
+	"dom_panel right": {
+		"tablet": {
+			"x": 0.98,
+			"offsetX": -35
+		},
+		"mobile": {
+			"x": 0.98,
+			"offsetX": -32
+		}
+	},
+        
+    "dom_panel horizontal": {
+		"tablet": {
+			"spacingX": 18
+		},
+		"mobile": {
+			"spacingX": 0
+		}
+	},
+
+	"dom_panel right wide": {
+		"tablet": {
+			"offsetX": -127
+		},
+		"mobile": {
+			"offsetX": -97
+		}
+	},
+
+	"dom_panel top": {
+		"tablet": {
+			"y": 0.026,
+			"offsetY": 35
+		},
+		"mobile": {
+			"y": 0.035,
+			"offsetY": 32
+		}
+	},
+
+	"dom_panel bottom": {
+		"tablet": {
+			"y": 0.939,
+			"offsetY": -35
+		},
+		"mobile": {
+			"y": 0.965,
+			"offsetY": -32
+		}
+	},
+
+	"dom_panel play": {
+		"tablet": {
+			"x": 0.5,
+			"y": 0.8
+		},
+		"mobile": {
+			"x": 0.5,
+			"y": 0.74
+		}
+	},
+
+	"dom_panel summary": {
+		"tablet": {
+			"x": 0.5,
+			"y": 0.94,
+			"offsetY": -35
+		},
+		"mobile": {
+			"x": 0.5,
+			"y": 0.954,
+			"offsetY": -32
+		}
+	}
+}

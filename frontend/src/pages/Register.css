@@ -1,0 +1,568 @@
+/* Register.css - Complete Dark Theme with Unique Class Names */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Container - Using 'gv' prefix for unique class names */
+.gv-register-container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0b1120 0%, #1a2538 100%);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Animated background */
+.gv-register-container::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+  animation: gv-rotate 30s linear infinite;
+}
+
+@keyframes gv-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Card */
+.gv-register-card {
+  background: rgba(21, 30, 47, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 45px 40px;
+  border-radius: 24px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+  animation: gv-slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes gv-slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Title */
+.gv-register-title {
+  text-align: center;
+  color: #ffffff !important; /* Pure white */
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.gv-register-subtitle {
+  text-align: center;
+  color: #e2e8f0 !important; /* Light gray */
+  font-size: 1rem;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+/* Form Groups */
+.gv-form-group {
+  margin-bottom: 20px;
+}
+
+.gv-form-group label {
+  display: block;
+  color: #f1f5f9 !important; /* Very light gray */
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.gv-form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  background: #0f172a;
+  border: 2px solid #334155;
+  border-radius: 16px;
+  color: #ffffff !important; /* White text */
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.gv-form-group input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+  background: #1a2538;
+}
+
+.gv-form-group input::placeholder {
+  color: #94a3b8 !important; /* Light gray placeholder */
+  opacity: 1;
+  font-size: 0.95rem;
+}
+
+.gv-form-group input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #1e293b;
+}
+
+/* Validation Styles */
+.gv-form-group input.gv-error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.gv-form-group input.gv-valid {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+}
+
+/* Password input wrapper */
+.gv-password-wrapper {
+  position: relative;
+}
+
+.gv-password-toggle {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #cbd5e1 !important; /* Light gray */
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px;
+  transition: color 0.3s ease;
+  z-index: 2;
+}
+
+.gv-password-toggle:hover {
+  color: #ffffff !important;
+}
+
+/* Password strength indicator */
+.gv-password-strength {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.gv-strength-bar {
+  height: 4px;
+  flex: 1;
+  background: #334155;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.gv-strength-bar.gv-weak {
+  background: #ef4444;
+}
+
+.gv-strength-bar.gv-medium {
+  background: #f59e0b;
+}
+
+.gv-strength-bar.gv-strong {
+  background: #10b981;
+}
+
+/* Password requirements */
+.gv-password-requirements {
+  margin-top: 15px;
+  padding: 16px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 16px;
+  border: 1px solid #334155;
+}
+
+.gv-password-requirements p {
+  color: #e2e8f0 !important; /* Light gray */
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.gv-requirement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gv-requirement-list li {
+  color: #94a3b8 !important; /* Medium gray */
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.gv-requirement-list li.gv-met {
+  color: #4ade80 !important; /* Light green */
+}
+
+.gv-requirement-list li .gv-req-icon {
+  font-size: 0.9rem;
+  width: 20px;
+  display: inline-block;
+}
+
+/* Validation hints */
+.gv-validation-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.gv-validation-hint.gv-valid {
+  color: #4ade80 !important; /* Light green */
+  background: rgba(16, 185, 129, 0.15);
+}
+
+.gv-validation-hint.gv-invalid {
+  color: #f87171 !important; /* Light red */
+  background: rgba(239, 68, 68, 0.15);
+}
+
+/* Button */
+.gv-register-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #ffffff !important; /* White text */
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+  box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.gv-register-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.gv-register-btn:hover:not(:disabled)::before {
+  width: 300px;
+  height: 300px;
+}
+
+.gv-register-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 30px -10px rgba(99, 102, 241, 0.5);
+}
+
+.gv-register-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Spinner */
+.gv-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: gv-spin 0.8s linear infinite;
+  display: inline-block;
+}
+
+@keyframes gv-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Login link */
+.gv-register-login {
+  text-align: center;
+  margin-top: 25px;
+  color: #cbd5e1 !important; /* Light gray */
+  font-size: 0.95rem;
+}
+
+.gv-register-login a {
+  color: #818cf8 !important; /* Light purple */
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: 5px;
+}
+
+.gv-register-login a:hover {
+  color: #a5b4fc !important; /* Lighter purple */
+  text-decoration: underline;
+}
+
+/* Terms section */
+.gv-register-terms {
+  margin-top: 30px;
+}
+
+.gv-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #334155, transparent);
+  margin-bottom: 15px;
+}
+
+.gv-terms-text {
+  color: #94a3b8 !important; /* Medium gray */
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.gv-terms-text a {
+  color: #818cf8 !important; /* Light purple */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.gv-terms-text a:hover {
+  color: #a5b4fc !important;
+  text-decoration: underline;
+}
+
+/* Success message */
+.gv-success-message {
+  text-align: center;
+  padding: 16px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid #4ade80;
+  border-radius: 16px;
+  color: #4ade80 !important; /* Light green */
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  animation: gv-fadeIn 0.5s ease;
+}
+
+/* Error message */
+.gv-error-message {
+  text-align: center;
+  padding: 16px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid #f87171;
+  border-radius: 16px;
+  color: #f87171 !important; /* Light red */
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  animation: gv-fadeIn 0.5s ease;
+}
+
+@keyframes gv-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Eye icon */
+.gv-eye-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #cbd5e1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gv-register-card {
+    padding: 35px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gv-register-card {
+    padding: 30px 20px;
+  }
+  
+  .gv-register-title {
+    font-size: 26px;
+  }
+  
+  .gv-register-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .gv-form-group input {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+  
+  .gv-register-btn {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+  
+  .gv-password-requirements {
+    padding: 12px;
+  }
+  
+  .gv-requirement-list li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .gv-register-card {
+    padding: 25px 15px;
+  }
+  
+  .gv-register-title {
+    font-size: 22px;
+  }
+  
+  .gv-form-group input {
+    padding: 10px 12px;
+  }
+  
+  .gv-password-toggle {
+    right: 12px;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  .gv-register-btn,
+  .gv-form-group input,
+  .gv-password-toggle,
+  .gv-register-login a {
+    min-height: 44px;
+  }
+  
+  .gv-form-group input {
+    font-size: 16px;
+  }
+  
+  .gv-password-toggle {
+    font-size: 1.4rem;
+  }
+}
+
+/* Landscape mode */
+@media (max-height: 600px) and (orientation: landscape) {
+  .gv-register-container {
+    min-height: 100%;
+    padding: 40px 20px;
+  }
+  
+  .gv-register-card {
+    padding: 25px 30px;
+  }
+  
+  .gv-form-group {
+    margin-bottom: 12px;
+  }
+  
+  .gv-register-title {
+    margin-bottom: 5px;
+  }
+  
+  .gv-register-subtitle {
+    margin-bottom: 15px;
+  }
+}
+
+/* Auto-fill styles */
+.gv-form-group input:-webkit-autofill,
+.gv-form-group input:-webkit-autofill:hover,
+.gv-form-group input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #0f172a inset;
+  transition: background-color 5000s ease-in-out 0s;
+  border-color: #6366f1;
+}
+
+/* Focus styles for accessibility */
+.gv-form-group input:focus-visible,
+.gv-register-btn:focus-visible,
+.gv-password-toggle:focus-visible,
+.gv-register-login a:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 2px;
+}
+
+/* Disabled state styling */
+.gv-form-group input:disabled {
+  background: #1e293b;
+  border-color: #475569;
+  color: #94a3b8 !important;
+}
+
+/* Loading state button */
+.gv-register-btn.gv-loading {
+  cursor: wait;
+}
+
+/* Success checkmark animation */
+@keyframes gv-checkmark {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.gv-checkmark {
+  animation: gv-checkmark 0.5s ease forwards;
+}
+
+/* Print styles */
+@media print {
+  .gv-register-container {
+    display: none;
+  }
+}

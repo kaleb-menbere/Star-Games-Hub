@@ -1,0 +1,39 @@
+{
+  "frames": {
+    "bgpattern": {
+      "frame": {
+        "x": 6,
+        "y": 6,
+        "w": 280,
+        "h": 280
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 280
+      },
+      "sourceSize": {
+        "w": 280,
+        "h": 280
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "https://github.com/odrick/gulp-free-tex-packer",
+    "version": "0.5.2",
+    "image": "foxpic_mipmapoff_2x.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 292,
+      "h": 292
+    },
+    "scale": 1
+  }
+}

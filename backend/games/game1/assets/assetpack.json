@@ -1,0 +1,235 @@
+{
+  "boot": [
+    {
+      "type": "xml",
+      "key": "copy_xml",
+      "url": "locale/copy.xml",
+      "overwrite": true
+    },
+    {
+      "type": "json",
+      "key": "app_config",
+      "url": "data/config.json",
+      "overwrite": true
+    },
+    {
+      "type": "image",
+      "key": "bg_main",
+      "url": "ui/backgrounds/bg_main.jpg"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "rotate",
+      "textureURL": "screens/rotate.png",
+      "atlasURL": "screens/rotate.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "loader",
+      "textureURL": "ui/spritesheets/loader.png",
+      "atlasURL": "ui/spritesheets/loader.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    }
+  ],
+  "load": [
+    {
+      "type": "image",
+      "key": "logo_game",
+      "url": "ui/logos/logo_game.png"
+    },
+    {
+      "type": "image",
+      "key": "logo_forestrygames",
+      "url": "ui/logos/logo_forestrygames.png"
+    },
+    {
+      "type": "image",
+      "key": "logo_FG",
+      "url": "ui/logos/logo_FG.png"
+    },
+    {
+      "type": "image",
+      "key": "instruction_01",
+      "url": "ui/instruction/instruction_01.jpg"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "buttons",
+      "textureURL": "ui/spritesheets/buttons.png",
+      "atlasURL": "ui/spritesheets/buttons.json",
+      "atlasData": null
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "ui",
+      "textureURL": "ui/spritesheets/ui.png",
+      "atlasURL": "ui/spritesheets/ui.json",
+      "atlasData": null
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "onion",
+      "textureURL": "characters/onion.png",
+      "atlasURL": "characters/onion.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "apple",
+      "textureURL": "characters/apple.png",
+      "atlasURL": "characters/apple.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "cat",
+      "textureURL": "characters/cat.png",
+      "atlasURL": "characters/cat.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "vehicles",
+      "textureURL": "levels/vehicles.png",
+      "atlasURL": "levels/vehicles.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "title_characters",
+      "textureURL": "screens/title_characters.png",
+      "atlasURL": "screens/title_characters.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "level_end_apple",
+      "textureURL": "screens/level_end_apple.png",
+      "atlasURL": "screens/level_end_apple.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "level_end_onion",
+      "textureURL": "screens/level_end_onion.png",
+      "atlasURL": "screens/level_end_onion.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "char_select",
+      "textureURL": "screens/char_select.png",
+      "atlasURL": "screens/char_select.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "apple_complete_a",
+      "textureURL": "screens/apple_complete_a.png",
+      "atlasURL": "screens/apple_complete_a.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "apple_complete_b",
+      "textureURL": "screens/apple_complete_b.png",
+      "atlasURL": "screens/apple_complete_b.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "onion_complete_a",
+      "textureURL": "screens/onion_complete_a.png",
+      "atlasURL": "screens/onion_complete_a.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "onion_complete_b",
+      "textureURL": "screens/onion_complete_b.png",
+      "atlasURL": "screens/onion_complete_b.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "level_lose",
+      "textureURL": "screens/level_lose.png",
+      "atlasURL": "screens/level_lose.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "atlasJSONArray",
+      "key": "rotate_screen",
+      "textureURL": "screens/rotate.png",
+      "atlasURL": "screens/rotate.json",
+      "atlasData": null,
+      "format": "TEXTURE_ATLAS_JSON_ARRAY"
+    },
+    {
+      "type": "image",
+      "key": "road_start",
+      "url": "levels/road_start.jpg"
+    },
+    {
+      "type": "image",
+      "key": "road_lane",
+      "url": "levels/road_lane.jpg"
+    },
+    {
+      "type": "image",
+      "key": "road_lane_tile",
+      "url": "levels/road_lane_tile.jpg"
+    },
+    {
+      "type": "image",
+      "key": "road_end",
+      "url": "levels/road_end.jpg"
+    },
+    {
+      "type": "image",
+      "key": "road_end",
+      "url": "levels/road_end.jpg"
+    },
+    {
+      "type": "image",
+      "key": "bg_street",
+      "url": "ui/backgrounds/bg_street.jpg"
+    },
+    {
+      "type": "image",
+      "key": "bg_roof",
+      "url": "ui/backgrounds/bg_roof.jpg"
+    },
+    {
+      "type": "image",
+      "key": "bg_level_end",
+      "url": "ui/backgrounds/bg_level_end.jpg"
+    },
+    {
+      "type": "image",
+      "key": "bg_laptop_screen",
+      "url": "ui/backgrounds/bg_laptop_screen.png"
+    },
+    {
+      "type": "video",
+      "key": "cat_intro",
+      "urls": ["videos/cat_intro.mp4"]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{"frames": [
+
+{
+	"filename": "car.png",
+	"frame": {"x":2,"y":2,"w":1767,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1767,"h":280},
+	"sourceSize": {"w":1767,"h":280}
+},
+{
+	"filename": "cat_lose0001.png",
+	"frame": {"x":2,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0002.png",
+	"frame": {"x":202,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0003.png",
+	"frame": {"x":402,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0004.png",
+	"frame": {"x":602,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0005.png",
+	"frame": {"x":802,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0006.png",
+	"frame": {"x":1002,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0007.png",
+	"frame": {"x":1202,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0008.png",
+	"frame": {"x":1402,"y":284,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0009.png",
+	"frame": {"x":2,"y":472,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0010.png",
+	"frame": {"x":202,"y":472,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_lose0011.png",
+	"frame": {"x":402,"y":472,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+},
+{
+	"filename": "cat_stand.png",
+	"frame": {"x":602,"y":472,"w":198,"h":186},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":186},
+	"sourceSize": {"w":198,"h":186}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_lose.png",
+	"format": "RGBA8888",
+	"size": {"w":1771,"h":660},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:04fab850349fe36e9af2b1a882b195e7:67f401388c79b01621a5484edfccf9e9:b141d35eb11e6545ec9c916e67ca8ce6$"
+}
+}
