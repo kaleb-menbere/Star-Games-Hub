@@ -37,9 +37,11 @@ class GameService {
     }
 
     // Get game play URL with token
-    getGamePlayUrl(gameId) {
-        return `https://games.startechnologies.et/games/${gameId}`;
-    }
+// In frontend/src/services/game.service.js
+        getGamePlayUrl(gameId) {
+            const token = localStorage.getItem('token');
+            return `https://games.startechnologies.et/games/${gameId}?token=${token}`;
+        }
 
     // Get game image URL - WITHOUT .jpg extension (as per your routes)
 // Get game image URL - WITHOUT .jpg extension (as per your routes)
