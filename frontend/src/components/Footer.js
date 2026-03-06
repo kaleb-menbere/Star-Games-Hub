@@ -1,4 +1,4 @@
-// Footer.jsx - Simple Version
+// Footer.jsx - Updated with logo image
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
@@ -16,8 +16,18 @@ const Footer = () => {
           {/* Brand */}
           <div className="gv-footer-brand">
             <div className="gv-logo">
-              <span className="gv-logo-icon">🎮</span>
-              <span className="gv-logo-text">Star Games Gub</span>
+              <img 
+                src="/logo-star.jpeg" 
+                alt="Star Games Hub Logo" 
+                className="gv-logo-image"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.style.display = 'none';
+                  // Show fallback text if image fails to load
+                  e.target.parentElement.classList.add('gv-logo-fallback');
+                }}
+              />
+              <span className="gv-logo-text">Star Games Hub</span>
             </div>
             <p className="gv-brand-description">
               Your ultimate gaming destination. Play anywhere, anytime.
@@ -29,17 +39,23 @@ const Footer = () => {
             <h4>Quick Links</h4>
             <ul>
               <li><Link to="/games">Games</Link></li>
-              <li><Link to="/games">Categories</Link></li>
+              <li><Link to="/profile">Profile</Link></li>
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Support */}
           <div className="gv-footer-links">
-            <h4>Legal</h4>
+            <h4>Support</h4>
             <ul>
-              <li><Link to="#">Terms</Link></li>
-              <li><Link to="#">Privacy</Link></li>
-              <li><Link to="#">Cookies</Link></li>
+              <li>
+                <a href="tel:+251944878463" className="gv-phone-link">
+                  <span className="gv-phone-icon">📞</span>
+                  +251 944 878 463
+                </a>
+              </li>
+              <li>
+                <span className="gv-support-hours">24/7 Support Available</span>
+              </li>
             </ul>
           </div>
 

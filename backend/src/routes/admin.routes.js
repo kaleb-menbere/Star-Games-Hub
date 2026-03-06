@@ -11,7 +11,8 @@ const {
     uploadGameImages,
     getAdminLogs,
     getAllUsers,
-    updateUser
+    updateUser,
+    deleteUser
 } = require('../controllers/admin.controller');
 
 const { protect } = require('../middleware/auth.middleware');
@@ -40,5 +41,6 @@ router.get('/logs', getAdminLogs);
 // User management
 router.get('/users', getAllUsers);
 router.put('/users/:id', updateUser);
+router.delete('/users/:id', deleteUser);
 
 module.exports = router;

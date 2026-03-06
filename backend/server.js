@@ -35,7 +35,7 @@ connectDB().then(() => {
     const server = app.listen(PORT, () => {
         console.log(`
     ╔════════════════════════════════════════════╗
-    ║     Game Center Backend Started            ║
+    ║     Star Games Hub Backend Started            ║
     ╠════════════════════════════════════════════╣
     ║ Port: ${PORT}                                      
     ║ Mode: ${env.NODE_ENV}                                  

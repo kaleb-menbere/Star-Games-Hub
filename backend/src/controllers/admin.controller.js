@@ -76,7 +76,7 @@ exports.createGame = async (req, res) => {
             screenshot1: null,
             screenshot2: null,
             screenshot3: null,
-            isActive: true
+            isActive: false
         });
 
         // Log admin action
@@ -138,50 +138,84 @@ exports.uploadGameZip = async (req, res) => {
         }
 
         const gamesPath = path.join(__dirname, '../../games', gameId);
-        
-        // Create backup of existing game files
-        const backupPath = path.join(__dirname, '../../games/backups', `${gameId}_${Date.now()}`);
+
+
+        // prepare temporary extraction area
+        const tmpPath = path.join(__dirname, '../../games', `tmp_upload_${Date.now()}`);
+        await fs.mkdir(tmpPath, { recursive: true });
+
+        // extract the zip contents into temp folder
+        const zip = new AdmZip(zipFile.data);
         try {
-            await fs.access(gamesPath);
-            await fs.cp(gamesPath, backupPath, { recursive: true });
-            await fs.rm(gamesPath, { recursive: true, force: true });
-        } catch (error) {
-            // No existing files to backup
+            zip.extractAllTo(tmpPath, true);
+            logger.info('ZIP extracted to:', tmpPath);
+        } catch (extractError) {
+            logger.error('ZIP extraction failed:', extractError);
+            await fs.rm(tmpPath, { recursive: true, force: true });
+            return res.status(400).json({
+                success: false,
+                message: 'Invalid ZIP file or extraction failed'
+            });
         }
 
-        // Create fresh game folder
-        await fs.mkdir(gamesPath, { recursive: true });
-
-        // Extract zip file
-        const zip = new AdmZip(zipFile.data);
-        zip.extractAllTo(gamesPath, true);
-
-        // Verify index.html exists
-        const indexPath = path.join(gamesPath, 'index.html');
-        try {
-            await fs.access(indexPath);
-        } catch {
-            // Restore from backup if index.html not found
-            try {
-                await fs.access(backupPath);
-                await fs.rm(gamesPath, { recursive: true, force: true });
-                await fs.cp(backupPath, gamesPath, { recursive: true });
-            } catch (backupError) {
-                // No backup to restore
+        // helper that finds the directory containing index.html by walking recursively
+        const findIndexDir = async (dir) => {
+            const items = await fs.readdir(dir, { withFileTypes: true });
+            for (const item of items) {
+                const p = path.join(dir, item.name);
+                if (item.isFile() && item.name.toLowerCase() === 'index.html') {
+                    return dir;
+                }
+                if (item.isDirectory()) {
+                    const found = await findIndexDir(p);
+                    if (found) return found;
+                }
             }
-            
+            return null;
+        };
+
+        const indexDir = await findIndexDir(tmpPath);
+        logger.info('indexDir found:', indexDir);
+        if (!indexDir) {
+            await fs.rm(tmpPath, { recursive: true, force: true });
             return res.status(400).json({
                 success: false,
                 message: 'ZIP file must contain an index.html file'
             });
         }
 
-        // Clean up backup
-        try {
-            await fs.rm(backupPath, { recursive: true, force: true });
-        } catch (error) {
-            // Ignore cleanup errors
+        // create the destination folder and copy only the relevant files
+        await fs.mkdir(gamesPath, { recursive: true });
+        logger.info('gamesPath created:', gamesPath);
+
+        const copyRecursive = async (src, dest) => {
+            const stat = await fs.stat(src);
+            if (stat.isDirectory()) {
+                await fs.mkdir(dest, { recursive: true });
+                const children = await fs.readdir(src);
+                for (const child of children) {
+                    await copyRecursive(path.join(src, child), path.join(dest, child));
+                }
+            } else {
+                await fs.copyFile(src, dest);
+            }
+        };
+
+        if (indexDir === tmpPath) {
+            // files were at root of zip
+            await copyRecursive(tmpPath, gamesPath);
+            logger.info('Copied from root');
+        } else {
+            const children = await fs.readdir(indexDir);
+            logger.info('Children to copy:', children);
+            for (const child of children) {
+                await copyRecursive(path.join(indexDir, child), path.join(gamesPath, child));
+            }
         }
+
+        // remove temporary extraction directory
+        await fs.rm(tmpPath, { recursive: true, force: true });
+        logger.info('Upload completed for gameId:', gameId);
 
         // Log admin action (successful extraction)
         await AdminLog.create({
@@ -681,6 +715,53 @@ exports.updateUser = async (req, res) => {
         res.status(500).json({
             success: false,
             message: 'Failed to update user',
+            error: error.message
+        });
+    }
+};
+
+// @desc    Delete a user (admin only)
+// @route   DELETE /api/admin/users/:id
+// @access  Private/Admin
+exports.deleteUser = async (req, res) => {
+    try {
+        const { id } = req.params;
+
+        const user = await User.findByPk(id);
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: 'User not found'
+            });
+        }
+
+        // Prevent deleting self
+        if (req.user.id === id) {
+            return res.status(400).json({
+                success: false,
+                message: 'Cannot delete your own account'
+            });
+        }
+
+        // Log before deleting
+        await AdminLog.create({
+            adminId: req.user.id,
+            action: 'DELETE_USER',
+            details: { userId: user.id, username: user.username, email: user.email },
+            ipAddress: req.ip
+        });
+
+        await user.destroy();
+
+        res.json({
+            success: true,
+            message: 'User deleted successfully'
+        });
+    } catch (error) {
+        logger.error('Delete user error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Failed to delete user',
             error: error.message
         });
     }

@@ -134,7 +134,7 @@ const ResetPassword = () => {
                 
                 {/* Password Requirements */}
                 <div className="gv-password-requirements">
-                  <p>Password must contain:</p>
+                  <p>Password should contain:</p>
                   <ul className="gv-requirement-list">
                     <li className={passwordChecks.length ? 'gv-met' : ''}>
                       <span className="gv-req-icon">{passwordChecks.length ? '✅' : '○'}</span>

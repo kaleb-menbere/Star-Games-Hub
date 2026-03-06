@@ -4,6 +4,7 @@ import api from '../../services/api';
 import ImagePreview from './ImagePreview';
 import ImageUploadForm from './ImageUploadForm';
 import GameModal from './GameModal';
+import DeleteConfirmModal from './DeleteConfirmModal';
 
 const GameDetail = ({ game, onBack, onRefresh }) => {
     const [gameImages, setGameImages] = useState({ banner: false, logo: false, screenshots: [] });
@@ -13,6 +14,8 @@ const GameDetail = ({ game, onBack, onRefresh }) => {
     const [showEdit, setShowEdit] = useState(false);
     const [zipFile, setZipFile] = useState(null);
     const [uploadProgress, setUploadProgress] = useState({});
+    const [deleteConfirm, setDeleteConfirm] = useState(null);
+    const [deleteType, setDeleteType] = useState('soft');
     const { showMessage } = useMessage();
 
     useEffect(() => {
@@ -86,6 +89,7 @@ const GameDetail = ({ game, onBack, onRefresh }) => {
             <p><strong>ID:</strong> {game.gameId}</p>
             <p><strong>Category:</strong> {game.category}</p>
             <button className="btn-edit" onClick={() => setShowEdit(true)}>Edit details</button>
+            <button className="btn-delete" onClick={() => setDeleteConfirm(game.id)} style={{ marginLeft: '10px' }}>Delete Game</button>
             <hr />
             <h3>Images</h3>
             {loadingImages ? <p>Loading...</p> : (
@@ -105,6 +109,18 @@ const GameDetail = ({ game, onBack, onRefresh }) => {
                         fetchImages();
                         if(onRefresh) onRefresh();
                         showMessage('Game saved','success');
+                    }}
+                />
+            )}
+            {deleteConfirm && (
+                <DeleteConfirmModal 
+                    deleteConfirm={deleteConfirm}
+                    deleteType={deleteType}
+                    setDeleteType={setDeleteType}
+                    onClose={() => setDeleteConfirm(null)}
+                    onRefresh={() => {
+                        if(onRefresh) onRefresh();
+                        onBack(); // go back to list after delete
                     }}
                 />
             )}

@@ -27,7 +27,7 @@ module.exports = {
         PAID: 'Paid'
     },
     
-    // Error codes from Game Center API
+    // Error codes from 
     ERROR_CODES: {
         SUCCESS: '0',
         UNAUTHORIZED: '405230602',

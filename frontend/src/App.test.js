@@ -3,5 +3,5 @@ import App from './App';
 
 test('renders landing page title', () => {
   render(<App />);
-  expect(screen.getByText(/welcome to game center/i)).toBeInTheDocument();
+  expect(screen.getByText(/welcome to Star Games Hub/i)).toBeInTheDocument();
 });

@@ -43,6 +43,19 @@ const UsersTab = () => {
         }
     };
 
+    const handleDelete = async (userId) => {
+        if (!window.confirm('Are you sure you want to delete this user? This action cannot be undone.')) {
+            return;
+        }
+        try {
+            await api.delete(`/admin/users/${userId}`);
+            showMessage('User deleted', 'success');
+            fetchUsers();
+        } catch (err) {
+            showMessage(err.response?.data?.message || 'Failed to delete', 'error');
+        }
+    };
+
     return (
         <div className="users-tab">
             <div className="tab-header">
@@ -71,6 +84,7 @@ const UsersTab = () => {
                                 <td>{u.isVerified ? 'Yes' : 'No'}</td>
                                 <td>
                                     <button className="btn-edit" onClick={() => handleEdit(u)}>Edit</button>
+                                    <button className="btn-delete" onClick={() => handleDelete(u.id)} style={{ marginLeft: '5px' }}>Delete</button>
                                 </td>
                             </tr>
                         ))}

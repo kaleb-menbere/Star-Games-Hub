@@ -16,7 +16,7 @@ const AdminLog = sequelize.define('AdminLog', {
         }
     },
     action: {
-        type: DataTypes.ENUM('CREATE', 'UPDATE', 'DELETE_SOFT', 'DELETE_PERMANENT', 'UPLOAD', 'UPLOAD_IMAGES', 'DELETE_IMAGE'),
+        type: DataTypes.ENUM('CREATE', 'UPDATE', 'DELETE_SOFT', 'DELETE_PERMANENT', 'UPLOAD', 'UPLOAD_IMAGES', 'DELETE_IMAGE', 'UPDATE_USER', 'DELETE_USER'),
         allowNull: false
     },
     gameId: {
