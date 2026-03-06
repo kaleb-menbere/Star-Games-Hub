@@ -66,7 +66,18 @@ const Navbar = () => {
     <nav className="gc-navbar">
       <div className="gc-nav-container">
         <Link to="/" className="gc-logo" onClick={() => setMenuOpen(false)}>
-          🎮 Star Games Hub
+          <img 
+            src="/logo-star.jpeg" 
+            alt="Star Games Hub Logo" 
+            className="gc-logo-image"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.style.display = 'none';
+              // Show fallback emoji if image fails to load
+              e.target.parentElement.classList.add('gc-logo-fallback');
+            }}
+          />
+          <span className="gc-logo-text">Star Games Hub</span>
         </Link>
 
         {/* Hamburger Button */}

@@ -15,6 +15,9 @@ const env = require('./config/environment');
 const logger = require('./services/logger.service');
 const { User } = require('./models');
 
+// Import all models to establish associations
+require('./models');
+
 const app = express();
 
 /* ===============================

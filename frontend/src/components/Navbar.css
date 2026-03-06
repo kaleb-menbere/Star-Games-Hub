@@ -1,4 +1,4 @@
-/* Navbar.css - Enhanced Version with Active States */
+/* Navbar.css - Enhanced Version with Logo */
 
 /* Navbar Styles */
 .gc-navbar {
@@ -31,12 +31,51 @@
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .gc-logo:hover {
+  transform: scale(1.02);
+}
+
+.gc-logo:hover .gc-logo-text {
   color: #38bdf8;
-  transform: scale(1.05);
+}
+
+.gc-logo-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gc-logo:hover .gc-logo-image {
+  transform: rotate(5deg) scale(1.05);
+  box-shadow: 0 6px 12px rgba(56, 189, 248, 0.3);
+}
+
+/* Fallback when image doesn't load */
+.gc-logo.gc-logo-fallback .gc-logo-image {
+  display: none;
+}
+
+.gc-logo.gc-logo-fallback::before {
+  content: '🎮';
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gc-logo-text {
+  transition: color 0.3s ease;
 }
 
 /* Menu - Desktop */
@@ -238,7 +277,42 @@
   width: 110%;
 }
 
-/* Responsive Design */
+/* Logo responsive adjustments */
+@media (max-width: 768px) {
+  .gc-logo-image {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .gc-logo.gc-logo-fallback::before {
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gc-logo {
+    gap: 8px;
+  }
+  
+  .gc-logo-image {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .gc-logo.gc-logo-fallback::before {
+    width: 30px;
+    height: 30px;
+    font-size: 1.3rem;
+  }
+  
+  .gc-logo-text {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Design - Mobile Menu */
 @media (max-width: 768px) {
   .gc-hamburger {
     display: flex;
@@ -339,15 +413,6 @@
 
 /* Small Mobile */
 @media (max-width: 480px) {
-  .gc-logo {
-    font-size: 1.2rem;
-  }
-
-  .gc-hamburger {
-    width: 24px;
-    height: 20px;
-  }
-
   .gc-menu.open {
     max-height: 450px;
     padding: 15px 0;

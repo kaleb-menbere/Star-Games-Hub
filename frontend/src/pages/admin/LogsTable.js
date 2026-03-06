@@ -12,7 +12,6 @@ const LogsTable = ({ logs, filter }) => {
                         <th>Admin</th>
                         <th>Action</th>
                         <th>Game</th>
-                        <th>Details</th>
                         <th>IP</th>
                     </tr>
                 </thead>
@@ -23,11 +22,6 @@ const LogsTable = ({ logs, filter }) => {
                             <td>{log.admin?.username || 'Unknown'}</td>
                             <td><span className={`action-badge ${log.action}`}>{log.action}</span></td>
                             <td>{log.game?.name || log.gameFolder}</td>
-                            <td>
-                                {log.details && Object.entries(log.details).map(([key, value]) => (
-                                    <div key={key}><small>{key}: {JSON.stringify(value)}</small></div>
-                                ))}
-                            </td>
                             <td>{log.ipAddress}</td>
                         </tr>
                     ))}
@@ -37,4 +31,4 @@ const LogsTable = ({ logs, filter }) => {
     );
 };
 
-export default LogsTable; // Make sure this is default export
+export default LogsTable;
