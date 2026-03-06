@@ -23,7 +23,7 @@ module.exports = {
     EMAIL_FROM: process.env.EMAIL_FROM || 'noreply@gamecenter.com',
     
     // Frontend URL
-    FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:3000',
+    FRONTEND_URL: process.env.FRONTEND_URL || 'https://games.startechnologies.et',
     
     // Verification
     VERIFICATION_TOKEN_EXPIRE: process.env.VERIFICATION_TOKEN_EXPIRE || '24h',

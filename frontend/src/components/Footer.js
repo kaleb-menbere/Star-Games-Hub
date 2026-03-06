@@ -34,14 +34,14 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Links
           <div className="gv-footer-links">
             <h4>Quick Links</h4>
             <ul>
               <li><Link to="/games">Games</Link></li>
               <li><Link to="/profile">Profile</Link></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Support */}
           <div className="gv-footer-links">
@@ -59,14 +59,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social */}
+          {/* Social
           <div className="gv-footer-links">
             <h4>Connect</h4>
             <div className="gv-social-links">
               <a href="#" aria-label="Discord">💬</a>
               <a href="#" aria-label="Facebook">📘</a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Bar */}

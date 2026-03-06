@@ -138,34 +138,33 @@ const Register = () => {
       password: formData.password
     });
     
-    if (result.success) {
-      showMessage('Registration successful! Redirecting...', 'success');
-      
-      // Clear form
-      setFormData({
-        email: '',
-        username: '',
-        password: '',
-        confirmPassword: ''
-      });
-      
-      // Reset validation
-      setValidation({
-        emailValid: false,
-        usernameValid: false,
-        passwordValid: false,
-        passwordsMatch: false
-      });
-      
-      // Show success message and redirect to login
-      setTimeout(() => {
-        navigate('/login', { 
-          state: { 
-            successMessage: 'Registration successful! Please check your email to verify your account.' 
-          } 
-        });
-      }, 2000);
-    } else {
+if (result.success) {
+  showMessage('Registration successful! Please check your email for verification code.', 'success');
+  
+  // Save email to localStorage for verify page
+  localStorage.setItem('verificationEmail', formData.email);
+  
+  // Clear form
+  setFormData({
+    email: '',
+    username: '',
+    password: '',
+    confirmPassword: ''
+  });
+  
+  // Reset validation
+  setValidation({
+    emailValid: false,
+    usernameValid: false,
+    passwordValid: false,
+    passwordsMatch: false
+  });
+  
+  // Redirect to verify email page
+  setTimeout(() => {
+    navigate('/verify-email');
+  }, 2000);
+} else {
       showMessage(result.error || 'Registration failed. Please try again.', 'error');
     }
     
