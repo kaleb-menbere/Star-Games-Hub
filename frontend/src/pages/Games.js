@@ -46,7 +46,7 @@ const Games = () => {
   };
 
   const handlePlayGame = (gameId) => {
-    window.location.href = `http://localhost:5000/games/${gameId}`;
+    window.location.href = `https://games.startechnologies.et/games/${gameId}`;
   };
 
   const categories = [

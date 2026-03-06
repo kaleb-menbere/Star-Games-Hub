@@ -40,7 +40,7 @@ app.use(helmet({
 }));
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5000'],
+    origin: ['http://localhost:3000', 'https://games.startechnologies.et'],
     credentials: true
 }));
 

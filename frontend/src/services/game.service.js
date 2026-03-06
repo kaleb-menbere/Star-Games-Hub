@@ -38,13 +38,13 @@ class GameService {
 
     // Get game play URL with token
     getGamePlayUrl(gameId) {
-        return `http://localhost:5000/games/${gameId}`;
+        return `https://games.startechnologies.et/games/${gameId}`;
     }
 
     // Get game image URL - WITHOUT .jpg extension (as per your routes)
 // Get game image URL - WITHOUT .jpg extension (as per your routes)
 getGameImageUrl(gameId, imageType) {
-    return `http://localhost:5000/api/games/image/${gameId}/${imageType}`;
+    return `https://games.startechnologies.et/api/games/image/${gameId}/${imageType}`;
 }
 
     // Get fallback image

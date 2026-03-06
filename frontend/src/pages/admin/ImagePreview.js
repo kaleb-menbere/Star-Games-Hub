@@ -6,7 +6,7 @@ const ImagePreview = ({ game, gameImages, onRemove }) => {
         if (!gameImages[type]) return null;
         // use backend base URL directly; avoid relying on dev-server proxy for <img> tags
         const base = api.defaults.baseURL || '';
-        // baseURL is like http://localhost:5000/api
+        // baseURL is like https://games.startechnologies.et/api
         return `${base.replace(/\/$/, '')}/games/image/${game.gameId}/${type}`;
     };
 

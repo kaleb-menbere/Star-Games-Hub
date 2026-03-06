@@ -39,8 +39,8 @@ const LandingPage = () => {
       // Instead of fetching game data, we'll just use the image URLs directly
       const imagesWithStatus = await Promise.all(
         gameImageIds.map(async (game) => {
-          const bannerUrl = `${api.defaults.baseURL || 'http://localhost:5000/api'}/games/image/${game.id}/banner`;
-          const logoUrl = `${api.defaults.baseURL || 'http://localhost:5000/api'}/games/image/${game.id}/logo`;
+          const bannerUrl = `${api.defaults.baseURL || 'https://games.startechnologies.et /api'}/games/image/${game.id}/banner`;
+          const logoUrl = `${api.defaults.baseURL || 'https://games.startechnologies.et/api'}/games/image/${game.id}/logo`;
           
           // Check if banner exists (optional - you can remove this if it causes issues)
           try {
@@ -66,7 +66,7 @@ const LandingPage = () => {
       const gamesWithImages = imagesWithStatus.filter(g => g.hasImages);
       setFeaturedImages(gamesWithImages.length > 0 ? gamesWithImages : gameImageIds.map(g => ({
         ...g,
-        bannerUrl: `${api.defaults.baseURL || 'http://localhost:5000/api'}/games/image/${g.id}/banner`,
+        bannerUrl: `${api.defaults.baseURL || 'https://games.startechnologies.et/api'}/games/image/${g.id}/banner`,
         hasImages: false
       })));
       
@@ -85,7 +85,7 @@ const LandingPage = () => {
 
   const handlePlayGame = (gameId) => {
     if (user) {
-      window.location.href = `http://localhost:5000/games/${gameId}`;
+      window.location.href = `https://games.startechnologies.et/games/${gameId}`;
     } else {
       navigate('/games');
     }

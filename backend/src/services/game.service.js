@@ -39,7 +39,7 @@ class GameService {
     // Get game play URL with token
     getGamePlayUrl(gameId) {
         const token = localStorage.getItem('token');
-        return `http://localhost:5000/games/${gameId}?token=${token}`;
+        return `https://games.startechnologies.et/games/${gameId}?token=${token}`;
     }
 
     // Get game image URL (for BLOB storage - uses imageType not filename)

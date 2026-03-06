@@ -6,7 +6,7 @@ module.exports = function(app) {
   app.use(
     '/games',
     createProxyMiddleware({
-      target: 'http://localhost:5000',
+      target: 'https://games.startechnologies.et',
       changeOrigin: true,
       pathRewrite: {
         '^/games': '/games'
@@ -18,7 +18,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:5000',
+      target: 'https://games.startechnologies.et',
       changeOrigin: true
     })
   );
