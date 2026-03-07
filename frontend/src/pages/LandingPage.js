@@ -113,8 +113,8 @@ const LandingPage = () => {
           <p>Your ultimate gaming destination with 50+ exciting games. Play, compete, and conquer!</p>
           {!user ? (
             <div className="gv-hero-buttons">
-              <Link to="/register" className="gv-btn gv-btn-primary">Start Playing Free</Link>
-              <Link to="/login" className="gv-btn gv-btn-secondary">Sign In</Link>
+              <Link to="/register" className="gv-btn gv-btn-primary">Start Playing</Link>
+              <Link to="/login" className="gv-btn gv-btn-secondary">Logi In</Link>
             </div>
           ) : (
             <Link to="/games" className="gv-btn gv-btn-primary">Go to Games</Link>
