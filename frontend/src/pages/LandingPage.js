@@ -205,7 +205,7 @@ const LandingPage = () => {
           <p>Join millions of players and experience the ultimate gaming adventure</p>
           {!user ? (
             <div className="gv-cta-buttons">
-              <Link to="/register" className="gv-btn gv-btn-primary">Create Free Account</Link>
+              <Link to="/register" className="gv-btn gv-btn-primary">Create Account</Link>
               <Link to="/games" className="gv-btn gv-btn-secondary">Browse Games</Link>
             </div>
           ) : (
