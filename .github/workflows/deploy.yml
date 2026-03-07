@@ -27,9 +27,9 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: root
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "frontend/build/*,backend/*"
+          source: "frontend/build/, backend/"
           target: "/root/Star-Games-Hub"
-          strip_components: 1
+          # REMOVE strip_components: 1 - this was the problem!
           
       - name: Execute deployment commands
         uses: appleboy/ssh-action@v0.1.5
@@ -38,10 +38,14 @@ jobs:
           username: root
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
+            # Backend deployment
             cd /root/Star-Games-Hub/backend
             npm install
-            pm2 restart star-games-backend
+            pm2 restart star-games-backend || pm2 start npm --name "star-games-backend" -- start
             
-            # Copy frontend build to nginx
+            # Frontend deployment - Copy to nginx
             sudo cp -r /root/Star-Games-Hub/frontend/build/* /var/www/game-center/
             sudo chown -R www-data:www-data /var/www/game-center
+            
+            # Test nginx config and reload
+            sudo nginx -t && sudo systemctl reload nginx
